@@ -406,7 +406,7 @@ function bindLandingStartAction(linkElement) {
         const lang = resolveLang();
         const confirmed = await confirmLandingStart(lang);
         if (!confirmed) return;
-        window.location.href = START_URL;
+        window.open(START_URL, "_blank", "noopener,noreferrer");
     });
 }
 
