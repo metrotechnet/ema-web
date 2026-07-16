@@ -1,0 +1,171 @@
+{
+  "app": {
+    "title": "EMA | Enterprise Memory Agent",
+    "description": "Agent IA d'entrevue qui aide à capturer, structurer et préserver l'expertise des employés de votre organisation."
+  },
+  "messages": {
+    "warmup": "Démarrage de l'application...",
+    "backendConnectionTitle": "⚠️ Erreur de connexion au serveur",
+    "backendConnectionBody": "Le serveur n'a pas pu être atteint. Veuillez rafraîchir la page ou réessayer plus tard."
+  },
+  "header": {
+    "title": "IMX - EMA - DEMO",
+    "menuButton": "Menu",
+    "agentLabel": "Agent",
+    "newProcessButton": "Documenter un autre processus",
+    "newProcessLabel": "Nouveau processus",
+    "generateProfileButton": "Générer la fiche d'expertise",
+    "generateProfileLabel": "Générer la fiche"
+  },
+  "intro": {
+    "learnMoreEma": "En savoir plus sur EMA",
+    "title": "Préservez la mémoire de votre entreprise",
+    "description": "EMA transforme votre expertise en connaissances structurées et réutilisables grâce à une entrevue guidée.",
+    "disclaimer": "Note : Les échanges sont enregistrés afin de générer la fiche d'expertise. Aucune information n'est partagée sans votre validation.",
+    "profileAlt": "EMA - Enterprise Memory Agent",
+    "profileImage": "/static/logos/logo-ema.png"
+  },
+  "components": {
+    "inputArea": {
+      "showInputOnLoad": true,
+      "placeholder": "Répondez à EMA ou décrivez ce que vous souhaitez partager...",
+      "sendButton": "Envoyer",
+      "voiceButton": "Répondre à la voix",
+      "disclaimer": "⚠️ Vos réponses servent à générer une fiche d'expertise validée par vous.",
+      "tooltips": {
+        "voice": "Dictée vocale",
+        "send": "Envoyer le message",
+        "roleAgent": "Simule un utilisateur (démo)",
+        "stop": "Arrêter la génération",
+        "autoInterview": "Auto-interview de test"
+      }
+    }
+  },
+  "sidebar": {
+    "title": "IMX - EMA - DEMO",
+    "closeButton": "Fermer",
+    "emaGuide": "Comprendre EMA",
+    "about": "À propos",
+    "aboutImx": "À propos d'IMX",
+    "contact": "Nous rejoindre",
+    "privacy": "Politique de confidentialité",
+    "language": "Langue",
+    "agent": "Agent"
+  },
+  "cookies": {
+    "title": "Cookies et confidentialité",
+    "message": "Ce site utilise des cookies essentiels pour assurer son bon fonctionnement. Aucune donnée personnelle n'est collectée à des fins publicitaires.",
+    "accept": "Accepter",
+    "decline": "Refuser"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "lastUpdate": "31 décembre 2025",
+    "content": [
+      "Votre vie privée est importante pour nous. Cette politique de confidentialité explique quelles données sont collectées, comment elles sont utilisées et protégées lorsque vous utilisez l'assistant IMX Agent.",
+      "",
+      "1. Données collectées",
+      " - Informations fournies : Les questions que vous posez a l'assistant et les informations que vous saisissez.",
+      " - Données techniques : Informations sur l'appareil, le navigateur, l'adresse IP et les données de connexion.",
+      "",
+      "2. Utilisation des données",
+      " - Fournir et améliorer le service de l'assistant IA.",
+      " - Assurer la sécurité et prévenir les abus.",
+      " - Analyser l'utilisation de l'application pour améliorer l'expérience utilisateur.",
+      "",
+      "3. Partage des données",
+      " Vos données ne sont jamais vendues à des tiers. Elles peuvent être partagées uniquement dans les cas suivants :",
+      " - Respect des obligations légales.",
+      " - Protection contre la fraude ou les menaces à la sécurité.",
+      "",
+      "4. Sécurité",
+      "Nous mettons en oeuvre des mesures de sécurité pour protéger vos données contre l'accès non autorisé, la modification ou la divulgation.",
+      "",
+      "5. Vos droits",
+      " - Accéder à vos données personnelles.",
+      " - Demander la correction ou la suppression de vos données.",
+      " - Retirer votre consentement à tout moment.",
+      "",
+      "6. Contact",
+      "Pour toute question concernant cette politique de confidentialité, contactez-nous à <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
+    ]
+  },
+  "history": {
+    "loading": "Chargement...",
+    "warmup": "Démarrage de l'application...",
+    "error": "Désolé, une erreur est survenue. Réessayez dans quelques instants.",
+    "copy": "Copier",
+    "share": "Partager",
+    "copied": "Copié !",
+    "shareNotSupported": "Le partage n'est pas supporté sur ce navigateur.",
+    "comment": "Commentaire",
+    "comment_placeholder": "Votre commentaire...",
+    "send": "Envoyer",
+    "cancel": "Annuler",
+    "sending": "Envoi...",
+    "comment_success": "Commentaire ajouté !",
+    "comment_error": "Erreur lors de l'ajout du commentaire.",
+    "comment_required": "Veuillez entrer un commentaire.",
+    "network_error": "Erreur réseau."
+  },
+  "about": {
+    "title": "À propos de l'application",
+    "content": [
+      "Cette application est développée par IMX Technologie inc., une entreprise spécialisée dans le développement de solutions d'intelligence artificielle innovantes.",
+      "Nos outils visent à démocratiser l'accès aux technologies IA tout en maintenant des standards élevés de qualité, de sécurité et de respect de la vie privée.",
+      "Chaque application est conçue pour offrir une expérience utilisateur intuitive et des résultats fiables, adaptés aux besoins spécifiques de nos utilisateurs.",
+      "Pour en savoir plus sur nos projets et services, contactez-nous à <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
+    ],
+    "closeButton": "Fermer"
+  },
+  "footer": {
+    "content": "© IMX Technologie - 2026"
+  },
+  "chat": {
+    "startButton": "Commencer",
+    "startPopup": {
+      "title": "Bienvenue sur EMA",
+      "message": "Cette version de démonstration vous permet de découvrir les principales fonctionnalités et capacités d’EMA.\n\nPour une expérience représentative d’un cas d’utilisation réel, utilisez le mode **\"Expert Role-Agent\"** {{ROLE_AGENT_ICON}}.\n\n<a href=\"/index.html?lang=fr\">En apprendre plus sur EMA.</a>",
+      "confirmButton": "Continuer"
+    },
+    "interruptionToast": "Réponse interrompue",
+    "axisSwitchNotice": "Axe suivant: {axis}",
+    "generateProfilePrompt": "Génère la fiche d'expertise finale avec toutes les informations collectées.",
+    "autoInterview": {
+      "startTitle": "Auto interview (debug)",
+      "stopTitle": "Arrêter auto interview",
+      "startupPrompt": "Démarre l'entretien et pose ta première question d'introduction.",
+      "keepGoing": "Poursuis l'entretien selon le plan établi."
+    },
+    "actions": {
+      "profile": {
+        "exportTitle": "Exporter la fiche finale en PDF",
+        "download": "Telecharger le PDF"
+      },
+      "plan": {
+        "confirmTitle": "Confirmer le plan de travail",
+        "adjustTitle": "Demander un ajustement du plan",
+        "confirmLabel": "Le plan me convient",
+        "adjustLabel": "Je veux ajuster le plan",
+        "confirmMessage": "Le plan me convient.",
+        "adjustMessage": "Je veux ajuster le plan."
+      },
+      "recap": {
+        "confirmTitle": "Confirmer le récapitulatif",
+        "addTitle": "Ajouter une précision",
+        "accurateLabel": "Le résumé est fidèle",
+        "addLabel": "Je veux ajouter quelque chose",
+        "accurateMessage": "Le résumé est fidèle.",
+        "addMessage": "Je veux ajouter quelque chose."
+      }
+    },
+    "profile": {
+      "exportingPdf": "Export PDF...",
+      "saving": "Sauvegarde...",
+      "saved": "PDF exporté et fiche sauvegardée",
+      "exportedLocal": "PDF exporté (local)",
+      "filenameBase": "fiche-expertise",
+      "documentTitle": "Fiche d'expertise finale"
+    }
+  }
+}

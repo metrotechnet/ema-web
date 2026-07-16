@@ -1,0 +1,171 @@
+{
+  "app": {
+    "title": "EMA | Enterprise Memory Agent",
+    "description": "AI interview agent that helps capture, structure and preserve the expertise of your employees."
+  },
+  "messages": {
+    "warmup": "Starting the application...",
+    "backendConnectionTitle": "⚠️ Server connection error",
+    "backendConnectionBody": "The server could not be reached. Please refresh the page or try again later."
+  },
+  "header": {
+    "title": "IMX - EMA - DEMO",
+    "menuButton": "Menu",
+    "agentLabel": "Agent",
+    "newProcessButton": "Document another process",
+    "newProcessLabel": "New process",
+    "generateProfileButton": "Generate expertise profile",
+    "generateProfileLabel": "Generate profile"
+  },
+  "intro": {
+    "learnMoreEma": "Learn more about EMA",
+    "title": "Preserve your company's memory",
+    "description": "EMA transforms your expertise into structured, reusable knowledge through a guided interview.",
+    "disclaimer": "Note: Conversations are recorded to generate your expertise profile. Nothing is shared without your approval.",
+    "profileAlt": "EMA - Enterprise Memory Agent",
+    "profileImage": "/static/logos/logo-ema.png"
+  },
+  "components": {
+    "inputArea": {
+      "showInputOnLoad": true,
+      "placeholder": "Reply to EMA or describe what you want to share...",
+      "sendButton": "Send",
+      "voiceButton": "Reply by voice",
+      "disclaimer": "⚠️ Your answers are used to build an expertise profile validated by you.",
+      "tooltips": {
+        "voice": "Voice input",
+        "send": "Send message",
+        "roleAgent": "Simulate a user (demo)",
+        "stop": "Stop generation",
+        "autoInterview": "Auto-interview (debug)"
+      }
+    }
+  },
+  "sidebar": {
+    "title": "IMX - EMA - DEMO",
+    "closeButton": "Close",
+    "emaGuide": "Understand EMA",
+    "about": "About the application",
+    "aboutImx": "About IMX",
+    "contact": "Contact us",
+    "privacy": "Privacy Policy",
+    "language": "Language",
+    "agent": "Agent"
+  },
+  "cookies": {
+    "title": "Cookies and privacy",
+    "message": "This site uses essential cookies to ensure proper functioning. No personal data is collected for advertising purposes.",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdate": "December 31, 2025",
+    "content": [
+      "Your privacy is important to us. This privacy policy explains what data is collected, how it is used and protected when you use the IMX Agent assistant.",
+      "",
+      "1. Data collected",
+      " - Provided information: The questions you ask the assistant and the information you enter.",
+      " - Technical data: Information about the device, browser, IP address and connection data.",
+      "",
+      "2. Use of data",
+      " - Provide and improve the AI assistant service.",
+      " - Ensure security and prevent abuse.",
+      " - Analyze application usage to improve user experience.",
+      "",
+      "3. Data sharing",
+      " Your data is never sold to third parties. It may be shared only in the following cases:",
+      " - Compliance with legal obligations.",
+      " - Protection against fraud or security threats.",
+      "",
+      "4. Security",
+      "We implement security measures to protect your data against unauthorized access, modification or disclosure.",
+      "",
+      "5. Your rights",
+      " - Access your personal data.",
+      " - Request correction or deletion of your data.",
+      " - Withdraw your consent at any time.",
+      "",
+      "6. Contact",
+      "For any questions regarding this privacy policy, contact us at <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
+    ]
+  },
+  "history": {
+    "loading": "Loading...",
+    "warmup": "Starting the application...",
+    "error": "Sorry, an error occurred. Please try again in a few moments.",
+    "copy": "Copy",
+    "share": "Share",
+    "copied": "Copied!",
+    "shareNotSupported": "Sharing is not supported on this browser.",
+    "comment": "Comment",
+    "comment_placeholder": "Your comment...",
+    "send": "Send",
+    "cancel": "Cancel",
+    "sending": "Sending...",
+    "comment_success": "Comment added!",
+    "comment_error": "Error adding comment.",
+    "comment_required": "Please enter a comment.",
+    "network_error": "Network error."
+  },
+  "about": {
+    "title": "About the application",
+    "content": [
+      "This application is developed by IMX Technologie inc., a company specializing in the development of innovative artificial intelligence solutions.",
+      "Our tools aim to democratize access to AI technologies while maintaining high standards of quality, security, and privacy.",
+      "Each application is designed to provide an intuitive user experience and reliable results, tailored to the specific needs of our users.",
+      "To learn more about our projects and services, contact us at <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
+    ],
+    "closeButton": "Close"
+  },
+  "footer": {
+    "content": "© IMX Technologie - 2026"
+  },
+  "chat": {
+    "startButton": "Start",
+    "startPopup": {
+      "title": "Welcome to EMA",
+      "message": "This demo version lets you discover EMA's main features and capabilities.\n\nFor an experience that reflects a real use case, use **\"Expert Role-Agent\"** {{ROLE_AGENT_ICON}} mode.\n\n<a href=\"/index.html?lang=en\">Learn more about EMA.</a>",
+      "confirmButton": "Continue"
+    },
+    "interruptionToast": "Response interrupted",
+    "axisSwitchNotice": "Next axis: {axis}",
+    "generateProfilePrompt": "Generate the final expertise profile with all collected information.",
+    "autoInterview": {
+      "startTitle": "Auto-interview (debug)",
+      "stopTitle": "Stop auto-interview",
+      "startupPrompt": "Start the interview and ask your first introductory question.",
+      "keepGoing": "Continue the interview according to the established plan."
+    },
+    "actions": {
+      "profile": {
+        "exportTitle": "Export final profile as PDF",
+        "download": "Download PDF"
+      },
+      "plan": {
+        "confirmTitle": "Confirm work plan",
+        "adjustTitle": "Request plan adjustment",
+        "confirmLabel": "The plan works for me",
+        "adjustLabel": "I want to adjust the plan",
+        "confirmMessage": "The plan works for me.",
+        "adjustMessage": "I want to adjust the plan."
+      },
+      "recap": {
+        "confirmTitle": "Confirm recap",
+        "addTitle": "Add details",
+        "accurateLabel": "The summary is accurate",
+        "addLabel": "I want to add something",
+        "accurateMessage": "The summary is accurate.",
+        "addMessage": "I want to add something."
+      }
+    },
+    "profile": {
+      "exportingPdf": "Exporting PDF...",
+      "saving": "Saving...",
+      "saved": "PDF exported and profile saved",
+      "exportedLocal": "PDF exported (local)",
+      "filenameBase": "expertise-profile",
+      "documentTitle": "Final Expertise Profile"
+    }
+  }
+}

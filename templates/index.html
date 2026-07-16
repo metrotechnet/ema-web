@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMA | Explication de la solution</title>
+    <meta name="description" content="EMA (Enterprise Memory Agent) aide les organisations a capturer leur expertise et a la transformer en connaissances structurees et reutilisables via une entrevue guidee par IA.">
+    <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+    <link rel="canonical" href="https://imx-ema.web.app/index.html">
+    <link rel="alternate" hreflang="fr" href="https://imx-ema.web.app/index.html?lang=fr">
+    <link rel="alternate" hreflang="en" href="https://imx-ema.web.app/index.html?lang=en">
+    <link rel="alternate" hreflang="es" href="https://imx-ema.web.app/index.html?lang=es">
+    <link rel="alternate" hreflang="x-default" href="https://imx-ema.web.app/index.html?lang=fr">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="EMA | Enterprise Memory Agent">
+    <meta property="og:description" content="Capturez et structurez l'expertise terrain avec une entrevue IA guidee.">
+    <meta property="og:url" content="https://imx-ema.web.app/index.html">
+    <meta property="og:site_name" content="EMA">
+    <meta property="og:image" content="https://imx-ema.web.app/static/logos/logo-ema.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="EMA | Enterprise Memory Agent">
+    <meta name="twitter:description" content="Assistant IA d'entrevue pour capitaliser l'expertise organisationnelle.">
+    <meta name="twitter:image" content="https://imx-ema.web.app/static/logos/logo-ema.png">
+    <link rel="alternate" type="text/markdown" href="https://imx-ema.web.app/llms.txt" title="LLMs profile">
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="/static/css/ema-pages.css">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "Organization",
+                    "name": "IMX Technologie inc.",
+                    "url": "https://imxtech.ca/",
+                    "email": "info@imxtech.ca"
+                },
+                {
+                    "@type": "WebSite",
+                    "name": "EMA",
+                    "url": "https://imx-ema.web.app/",
+                    "inLanguage": ["fr-CA", "en-CA", "es"]
+                },
+                {
+                    "@type": "SoftwareApplication",
+                    "name": "EMA (Enterprise Memory Agent)",
+                    "applicationCategory": "BusinessApplication",
+                    "operatingSystem": "Web",
+                    "url": "https://imx-ema.web.app/index.html",
+                    "description": "Assistant IA qui guide des entrevues pour transformer l'expertise implicite en connaissances structurees.",
+                    "publisher": {
+                        "@type": "Organization",
+                        "name": "IMX Technologie inc.",
+                        "url": "https://imxtech.ca/"
+                    }
+                }
+            ]
+        }
+    </script>
+</head>
+<body>
+    <main class="page-shell">
+        <header class="slim-navbar" aria-label="Navigation principale" data-i18n-aria-label="nav.ariaLabel">
+            <a class="slim-brand" id="brand-link" href="/index.html?lang=fr">IMX-EMA-DEMO</a>
+            <button class="slim-burger" id="slim-burger" type="button" aria-expanded="false" aria-controls="slim-menu" data-i18n-aria-label="nav.menuToggleAria">
+                <i class="bi bi-list" aria-hidden="true"></i>
+            </button>
+            <nav class="slim-menu" id="slim-menu" aria-label="Sections">
+                <a href="#context-section" data-i18n="nav.context">Contexte</a>
+                <a href="#solution-section" data-i18n="nav.solution">Solution</a>
+                <a href="#usage-section" data-i18n="nav.usage">Parcours utilisateur</a>
+                <a href="#impact-section" data-i18n="nav.impact">Retombees</a>
+                <a href="#phases-section" data-i18n="nav.phases">Phases</a>
+                <a href="#contact-section" data-i18n="nav.contact">Contact</a>
+                <div class="slim-language">
+                    <label for="topbar-language-selector" data-i18n="nav.language">Langue</label>
+                    <select id="topbar-language-selector" class="topbar-language-selector" aria-label="Choix de la langue">
+                        <option value="fr">FR</option>
+                        <option value="en">EN</option>
+                        <option value="es">ES</option>
+                    </select>
+                </div>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="hero-copy loading-style">
+                <div class="eyebrow"><i class="bi bi-diagram-3"></i> <span data-i18n="hero.eyebrow">Enterprise Memory Agent</span></div>
+                <div class="hero-brand">
+                    <img src="/static/logos/logo-ema.png" alt="Logo EMA" data-i18n-alt="brand.logoAlt">
+                </div>
+                <h1 class="app-name" data-i18n="hero.title">Préservez la mémoire de votre entreprise</h1>
+                <p class="lead" data-i18n="hero.lead">EMA transforme votre expertise en connaissances structurées et réutilisables grâce à une entrevue guidée.</p>
+                <div class="hero-actions">
+                    <a class="cta-button" id="hero-start-link" href="https://imx-ema-demo.web.app/">
+                        <i class="bi bi-play-circle"></i>
+                        <span data-i18n="hero.startButton">Essayez-le!</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-grid">
+            <article class="section" id="context-section">
+                <div class="section-icon"><i class="bi bi-building-check"></i></div>
+                <h2 data-i18n="context.title">Contexte de l'application</h2>
+                <p data-i18n="context.p1">Dans une organisation, une grande partie de l'expertise reste implicite : méthodes de travail, décisions récurrentes, critères de jugement, partenaires clés et exceptions apprises avec l'expérience.</p>
+                <p data-i18n="context.p2">Cette connaissance est souvent dispersée dans les échanges, les habitudes d'équipe ou la mémoire individuelle. Lorsqu'une personne change de rôle ou quitte l'organisation, une partie de ce capital devient difficile à retrouver.</p>
+            </article>
+
+            <article class="section" id="solution-section">
+                <div class="section-icon"><i class="bi bi-cpu"></i></div>
+                <h2 data-i18n="solution.title">Solution apportée : EMA</h2>
+                <p data-i18n="solution.p1">EMA se comporte comme un intervieweur intelligent : il avance question par question, structure l'échange autour d'un plan clair, explore chaque axe validé et fournit des synthèses intermédiaires avant de produire une fiche d'expertise finale.</p>
+                <p data-i18n="solution.p2">Son objectif est de transformer l'expertise tacite en connaissances explicites, sans imposer à l'utilisateur la rédaction d'une documentation complète.</p>
+
+            </article>
+
+            <article class="section full" id="usage-section">
+                <div class="section-icon"><i class="bi bi-play-circle"></i></div>
+                <h2 data-i18n="usage.title">Parcours utilisateur</h2>
+                <p data-i18n="usage.p1">L'utilisateur suit un parcours en deux volets : d'abord une entrevue guidée pour structurer l'expertise, puis un espace chat pour interroger les connaissances produites et obtenir des réponses ciblées.</p>
+                <div class="flow">
+                    <div class="flow-step"><strong data-i18n="usage.step1.title">1. Démarrer</strong><span data-i18n="usage.step1.desc">Décrire le besoin ou le processus à documenter.</span></div>
+                    <div class="flow-step"><strong data-i18n="usage.step2.title">2. Valider le plan</strong><span data-i18n="usage.step2.desc">Confirmer ou ajuster les axes de l'entrevue.</span></div>
+                    <div class="flow-step"><strong data-i18n="usage.step3.title">3. Répondre</strong><span data-i18n="usage.step3.desc">Partager les pratiques, critères, outils et cas vécus.</span></div>
+                    <div class="flow-step"><strong data-i18n="usage.step4.title">4. Confirmer</strong><span data-i18n="usage.step4.desc">Valider les récapitulatifs et la fiche finale.</span></div>
+                    <div class="flow-step"><strong data-i18n="usage.step5.title">5. Poser vos questions</strong><span data-i18n="usage.step5.desc">Poser des questions sur l'expertise consolidée et obtenir des réponses contextuelles.</span></div>
+                </div>
+            </article>
+
+            <article class="section full" id="impact-section">
+                <div class="section-icon"><i class="bi bi-graph-up-arrow"></i></div>
+                <h2 data-i18n="impact.title">Retombées</h2>
+                <p data-i18n="impact.p1">EMA facilite la capitalisation des connaissances, réduit la dépendance à la mémoire individuelle et accélère la production de contenus réutilisables pour l'onboarding, la formation, l'amélioration continue et le transfert d'expertise.</p>
+                <p data-i18n="impact.p2">Les équipes peuvent mieux comparer les pratiques, repérer les zones grises et préserver les apprentissages issus de l'expérience réelle.</p>
+            </article>
+
+            <article class="section full rag-left" id="phases-section">
+                <div class="section-icon"><i class="bi bi-signpost-split"></i></div>
+                <h2 data-i18n="phases.sectionTitle">Feuille de route de développement</h2>
+
+                <details class="phases-accordion">
+                    <summary class="phases-accordion-summary">
+                        <span data-i18n="phases.accordionToggle">Afficher les détails des phases</span>
+                    </summary>
+                    <div class="phases-accordion-content">
+                        <h2 data-i18n="phases.step1.title">Phase 1 - Capture et valorisation de l'expertise</h2>
+                        <p data-i18n="phases.step1.desc">La première phase permet aux organisations de capturer rapidement le savoir-faire de leurs employés grâce à des entrevues intelligentes guidées par l'IA. La plateforme transforme automatiquement les connaissances tacites en contenus structurés, consultables et réutilisables par l'ensemble de l'organisation.</p>
+                        <p><strong data-i18n="phases.featuresLabel">Fonctionnalités clés</strong></p>
+                        <ul>
+                            <li data-i18n="phases.step1.item1">Gestion des organisations, équipes et utilisateurs</li>
+                            <li data-i18n="phases.step1.item2">Entrevues assistées par intelligence artificielle</li>
+                            <li data-i18n="phases.step1.item3">Reconnaissance vocale et transcription automatique</li>
+                            <li data-i18n="phases.step1.item4">Questions adaptatives et validation des informations recueillies</li>
+                            <li data-i18n="phases.step1.item5">Génération automatique de fiches d'expertise structurées</li>
+                            <li data-i18n="phases.step1.item6">Téléversement et association de documents de référence</li>
+                            <li data-i18n="phases.step1.item7">Base de connaissances centralisée</li>
+                            <li data-i18n="phases.step1.item8">Agent conversationnel permettant d'interroger l'expertise capturée</li>
+                        </ul>
+
+                        <h2 data-i18n="phases.step2.title">Phase 2 - Capture multimodale des connaissances</h2>
+                        <p data-i18n="phases.step2.desc">Cette phase enrichit la collecte d'expertise en intégrant la vidéo, le partage d'écran et l'analyse de contenus visuels. EMA est alors capable de documenter non seulement ce que les experts savent, mais également ce qu'ils font.</p>
+                        <p><strong data-i18n="phases.featuresLabel">Fonctionnalités clés</strong></p>
+                        <ul>
+                            <li data-i18n="phases.step2.item1">Enregistrement vidéo des entrevues et démonstrations</li>
+                            <li data-i18n="phases.step2.item2">Capture et partage d'écran</li>
+                            <li data-i18n="phases.step2.item3">Analyse automatisée d'images, de documents et de contenus visuels</li>
+                            <li data-i18n="phases.step2.item4">Extraction de procédures et de méthodes de travail</li>
+                            <li data-i18n="phases.step2.item5">Génération automatique de guides illustrés et de documentation opérationnelle</li>
+                        </ul>
+
+                        <h2 data-i18n="phases.step3.title">Phase 3 - Mémoire organisationnelle intelligente</h2>
+                        <p data-i18n="phases.step3.desc">À cette étape, les connaissances individuelles sont consolidées pour créer une véritable mémoire organisationnelle. L'entreprise bénéficie d'un référentiel unique regroupant l'expertise de plusieurs employés et les connaissances documentaires existantes.</p>
+                        <p><strong data-i18n="phases.featuresLabel">Fonctionnalités clés</strong></p>
+                        <ul>
+                            <li data-i18n="phases.step3.item1">Consolidation des connaissances provenant de plusieurs experts</li>
+                            <li data-i18n="phases.step3.item2">Validation collaborative et enrichissement des contenus</li>
+                            <li data-i18n="phases.step3.item3">Intégration avec les documents et systèmes de l'entreprise</li>
+                            <li data-i18n="phases.step3.item4">Recherche avancée à travers l'ensemble des connaissances</li>
+                            <li data-i18n="phases.step3.item5">Agent conversationnel global capable de répondre à partir de toute la mémoire organisationnelle</li>
+                        </ul>
+
+                        <h2 data-i18n="phases.step4.title">Phase 4 - Intelligence organisationnelle et relève stratégique</h2>
+                        <p data-i18n="phases.step4.desc">La dernière phase transforme les connaissances accumulées en intelligence d'affaires. EMA aide les gestionnaires à identifier les risques, planifier la relève et développer les compétences stratégiques de l'organisation.</p>
+                        <p><strong data-i18n="phases.featuresLabel">Fonctionnalités clés</strong></p>
+                        <ul>
+                            <li data-i18n="phases.step4.item1">Identification des experts et connaissances critiques</li>
+                            <li data-i18n="phases.step4.item2">Analyse des risques liés à la perte d'expertise</li>
+                            <li data-i18n="phases.step4.item3">Détection des lacunes de connaissances et des besoins de formation</li>
+                            <li data-i18n="phases.step4.item4">Cartographie des compétences organisationnelles</li>
+                            <li data-i18n="phases.step4.item5">Soutien à la planification de la relève</li>
+                            <li data-i18n="phases.step4.item6">Tableaux de bord décisionnels et indicateurs stratégiques</li>
+                            <li data-i18n="phases.step4.item7">Génération automatisée de contenus de formation et de transfert de connaissances</li>
+                        </ul>
+                    </div>
+                </details>
+            </article>
+        </section>
+
+        <section class="contact-footer" id="contact-section" aria-label="Contact IMX Technologie" data-i18n-aria-label="footer.ariaLabel">
+            <p data-i18n="footer.contact">Cette solution est développée par <strong><a href="https://imxtech.ca" target="_blank" rel="noopener noreferrer">IMX Technologie inc.</a></strong>. Pour plus d'information, contactez <a href="mailto:info@imxtech.ca">info@imxtech.ca</a>.</p>
+        </section>
+    </main>
+    <script src="/static/js/web-translations.js"></script>
+</body>
+</html>
+
