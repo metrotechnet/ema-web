@@ -2,7 +2,7 @@
 setlocal
 
 echo ====================================
-echo Deploy EMA Web (imx-ema-web)
+echo Deploy EMA Web (imx-ema)
 echo ====================================
 echo.
 
@@ -13,39 +13,30 @@ if %errorlevel% neq 0 (
   exit /b 1
 )
 
-REM Refresh extracted landing pages (index.html) from sibling projects
-if not exist "public\main" mkdir "public\main"
-if not exist "public\demo" mkdir "public\demo"
-if not exist "public\dev" mkdir "public\dev"
-
-copy /Y "..\ema-main\templates\index.html" "public\main\index.html" >nul
+REM Build a standalone static hosting bundle from this repo only.
+if exist "public" rmdir /S /Q "public"
+mkdir "public"
 if %errorlevel% neq 0 (
-  echo ERROR: Failed to copy ..\ema-main\templates\index.html
+  echo ERROR: Failed to create public directory.
   exit /b 1
 )
 
-copy /Y "..\ema-demo\templates\index.html" "public\demo\index.html" >nul
+copy /Y "templates\index.html" "public\index.html" >nul
 if %errorlevel% neq 0 (
-  echo ERROR: Failed to copy ..\ema-demo\templates\index.html
+  echo ERROR: Failed to copy templates\index.html to public\index.html
   exit /b 1
 )
 
-copy /Y "..\ema-dev\templates\index.html" "public\dev\index.html" >nul
-if %errorlevel% neq 0 (
-  echo ERROR: Failed to copy ..\ema-dev\templates\index.html
+xcopy "static" "public\static\" /E /I /Y >nul
+if %errorlevel% geq 4 (
+  echo ERROR: Failed to copy static assets to public\static
   exit /b 1
 )
 
-REM Root landing points to demo index page by default.
-(
-  echo ^<!DOCTYPE html^>
-  echo ^<html lang="en"^>^<head^>^<meta charset="UTF-8" /^>^<meta http-equiv="refresh" content="0; url=/demo/index.html" /^>^<title^>Redirecting...^</title^>^</head^>^<body^>Go to ^<a href="/demo/index.html"^>demo/index.html^</a^>.^</body^>^</html^>
-) > "public\index.html"
-
-echo Using Firebase project: imx-ema-web
-call firebase use imx-ema-web
+echo Using Firebase project: imx-ema
+call firebase use imx-ema
 if %errorlevel% neq 0 (
-  echo ERROR: Unable to select Firebase project imx-ema-web
+  echo ERROR: Unable to select Firebase project imx-ema
   exit /b 1
 )
 
@@ -58,4 +49,4 @@ if %errorlevel% neq 0 (
 )
 
 echo.
-echo SUCCESS: Deployment completed for imx-ema-web.
+echo SUCCESS: Deployment completed for imx-ema.

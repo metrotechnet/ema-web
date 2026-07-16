@@ -1,6 +1,40 @@
 {
   "hosting": {
     "public": "public",
+    "redirects": [
+      {
+        "source": "/demo/index.html",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/demo/**",
+        "destination": "/",
+        "type": 301
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "/dev",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/dev/**",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/main",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/main/**",
+        "destination": "/index.html"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
     "ignore": [
       "firebase.json",
       "**/.*",

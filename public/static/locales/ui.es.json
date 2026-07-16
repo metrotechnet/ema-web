@@ -1,0 +1,171 @@
+{
+  "app": {
+    "title": "EMA | Enterprise Memory Agent",
+    "description": "Agente de entrevista con IA que ayuda a capturar, estructurar y preservar la experiencia de tus empleados."
+  },
+  "messages": {
+    "warmup": "Iniciando la aplicación...",
+    "backendConnectionTitle": "⚠️ Error de conexión con el servidor",
+    "backendConnectionBody": "No se pudo contactar con el servidor. Actualiza la página o inténtalo de nuevo más tarde."
+  },
+  "header": {
+    "title": "IMX - EMA - DEMO",
+    "menuButton": "Menu",
+    "agentLabel": "Agente",
+    "newProcessButton": "Documentar otro proceso",
+    "newProcessLabel": "Nuevo proceso",
+    "generateProfileButton": "Generar perfil de experiencia",
+    "generateProfileLabel": "Generar perfil"
+  },
+  "intro": {
+    "learnMoreEma": "Más información sobre EMA",
+    "title": "Preserva la memoria de tu empresa",
+    "description": "EMA transforma tu experiencia en conocimiento estructurado y reutilizable mediante una entrevista guiada.",
+    "disclaimer": "Nota: Las conversaciones se registran para generar tu perfil de experiencia. Nada se comparte sin tu aprobación.",
+    "profileAlt": "EMA - Enterprise Memory Agent",
+    "profileImage": "/static/logos/logo-ema.png"
+  },
+  "components": {
+    "inputArea": {
+      "showInputOnLoad": true,
+      "placeholder": "Responde a EMA o describe lo que quieres compartir...",
+      "sendButton": "Enviar",
+      "voiceButton": "Responder por voz",
+      "disclaimer": "⚠️ Tus respuestas se utilizan para crear un perfil de experiencia validado por ti.",
+      "tooltips": {
+        "voice": "Entrada de voz",
+        "send": "Enviar mensaje",
+        "roleAgent": "Simular un usuario (demo)",
+        "stop": "Detener generación",
+        "autoInterview": "Autoentrevista (debug)"
+      }
+    }
+  },
+  "sidebar": {
+    "title": "IMX - EMA - DEMO",
+    "closeButton": "Cerrar",
+    "emaGuide": "Comprender EMA",
+    "about": "Acerca de la aplicación",
+    "aboutImx": "Acerca de IMX",
+    "contact": "Contáctanos",
+    "privacy": "Política de privacidad",
+    "language": "Idioma",
+    "agent": "Agente"
+  },
+  "cookies": {
+    "title": "Cookies y privacidad",
+    "message": "Este sitio usa cookies esenciales para garantizar su correcto funcionamiento. No se recopilan datos personales con fines publicitarios.",
+    "accept": "Aceptar",
+    "decline": "Rechazar"
+  },
+  "privacy": {
+    "title": "Política de privacidad",
+    "lastUpdate": "31 de diciembre de 2025",
+    "content": [
+      "Tu privacidad es importante para nosotros. Esta política de privacidad explica qué datos se recopilan, cómo se usan y protegen cuando utilizas el asistente IMX Agent.",
+      "",
+      "1. Datos recopilados",
+      " - Información proporcionada: Las preguntas que haces al asistente y la información que ingresas.",
+      " - Datos técnicos: Información del dispositivo, navegador, dirección IP y datos de conexión.",
+      "",
+      "2. Uso de los datos",
+      " - Proporcionar y mejorar el servicio del asistente de IA.",
+      " - Garantizar la seguridad y prevenir abusos.",
+      " - Analizar el uso de la aplicación para mejorar la experiencia del usuario.",
+      "",
+      "3. Compartir datos",
+      " Tus datos nunca se venden a terceros. Solo pueden compartirse en los siguientes casos:",
+      " - Cumplimiento de obligaciones legales.",
+      " - Protección contra fraude o amenazas de seguridad.",
+      "",
+      "4. Seguridad",
+      "Implementamos medidas de seguridad para proteger tus datos contra acceso no autorizado, modificación o divulgación.",
+      "",
+      "5. Tus derechos",
+      " - Acceder a tus datos personales.",
+      " - Solicitar la corrección o eliminación de tus datos.",
+      " - Retirar tu consentimiento en cualquier momento.",
+      "",
+      "6. Contacto",
+      "Para cualquier consulta sobre esta política de privacidad, contáctanos en <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
+    ]
+  },
+  "history": {
+    "loading": "Cargando...",
+    "warmup": "Iniciando la aplicación...",
+    "error": "Lo sentimos, ocurrió un error. Inténtalo de nuevo en unos instantes.",
+    "copy": "Copiar",
+    "share": "Compartir",
+    "copied": "¡Copiado!",
+    "shareNotSupported": "Compartir no es compatible con este navegador.",
+    "comment": "Comentario",
+    "comment_placeholder": "Tu comentario...",
+    "send": "Enviar",
+    "cancel": "Cancelar",
+    "sending": "Enviando...",
+    "comment_success": "¡Comentario agregado!",
+    "comment_error": "Error al agregar el comentario.",
+    "comment_required": "Por favor ingresa un comentario.",
+    "network_error": "Error de red."
+  },
+  "about": {
+    "title": "Acerca de la aplicación",
+    "content": [
+      "Esta aplicación fue desarrollada por IMX Technologie inc., una empresa especializada en el desarrollo de soluciones innovadoras de inteligencia artificial.",
+      "Nuestras herramientas buscan democratizar el acceso a las tecnologías de IA manteniendo altos estándares de calidad, seguridad y privacidad.",
+      "Cada aplicación está diseñada para ofrecer una experiencia de usuario intuitiva y resultados confiables, adaptados a las necesidades específicas de nuestros usuarios.",
+      "Para obtener más información sobre nuestros proyectos y servicios, contáctanos en <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
+    ],
+    "closeButton": "Cerrar"
+  },
+  "footer": {
+    "content": "© IMX Technologie - 2026"
+  },
+  "chat": {
+    "startButton": "Empezar",
+    "startPopup": {
+      "title": "Bienvenido a EMA",
+      "message": "Esta versión de demostración te permite descubrir las principales funcionalidades y capacidades de EMA.\n\nPara una experiencia representativa de un caso de uso real, utiliza el modo **\"Expert Role-Agent\"** {{ROLE_AGENT_ICON}}.\n\n<a href=\"/index.html?lang=es\">Saber más sobre EMA.</a>",
+      "confirmButton": "Continuar"
+    },
+    "interruptionToast": "Respuesta interrumpida",
+    "axisSwitchNotice": "Siguiente eje: {axis}",
+    "generateProfilePrompt": "Genera la ficha final de experiencia con toda la información recopilada.",
+    "autoInterview": {
+      "startTitle": "Entrevista automática (debug)",
+      "stopTitle": "Detener entrevista automática",
+      "startupPrompt": "Inicia la entrevista y haz tu primera pregunta de introducción.",
+      "keepGoing": "Continúa la entrevista según el plan establecido."
+    },
+    "actions": {
+      "profile": {
+        "exportTitle": "Exportar perfil final a PDF",
+        "download": "Descargar PDF"
+      },
+      "plan": {
+        "confirmTitle": "Confirmar plan de trabajo",
+        "adjustTitle": "Solicitar ajuste del plan",
+        "confirmLabel": "El plan me funciona",
+        "adjustLabel": "Quiero ajustar el plan",
+        "confirmMessage": "El plan me funciona.",
+        "adjustMessage": "Quiero ajustar el plan."
+      },
+      "recap": {
+        "confirmTitle": "Confirmar resumen",
+        "addTitle": "Agregar detalles",
+        "accurateLabel": "El resumen es correcto",
+        "addLabel": "Quiero agregar algo",
+        "accurateMessage": "El resumen es correcto.",
+        "addMessage": "Quiero agregar algo."
+      }
+    },
+    "profile": {
+      "exportingPdf": "Exportando PDF...",
+      "saving": "Guardando...",
+      "saved": "PDF exportado y perfil guardado",
+      "exportedLocal": "PDF exportado (local)",
+      "filenameBase": "perfil-experiencia",
+      "documentTitle": "Perfil final de experiencia"
+    }
+  }
+}
