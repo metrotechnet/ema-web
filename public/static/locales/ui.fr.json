@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "EMA | Enterprise Memory Agent",
+    "title": "EMA | Expert Memory Agent",
     "description": "Agent IA d'entrevue qui aide à capturer, structurer et préserver l'expertise des employés de votre organisation."
   },
   "messages": {
@@ -22,7 +22,7 @@
     "title": "Préservez la mémoire de votre entreprise",
     "description": "EMA transforme votre expertise en connaissances structurées et réutilisables grâce à une entrevue guidée.",
     "disclaimer": "Note : Les échanges sont enregistrés afin de générer la fiche d'expertise. Aucune information n'est partagée sans votre validation.",
-    "profileAlt": "EMA - Enterprise Memory Agent",
+    "profileAlt": "EMA - Expert Memory Agent",
     "profileImage": "/static/logos/logo-ema.png"
   },
   "components": {

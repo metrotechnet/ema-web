@@ -1,6 +1,6 @@
 {
   "app": {
-    "title": "EMA | Enterprise Memory Agent",
+    "title": "EMA | Expert Memory Agent",
     "description": "Agente de entrevista con IA que ayuda a capturar, estructurar y preservar la experiencia de tus empleados."
   },
   "messages": {
@@ -22,7 +22,7 @@
     "title": "Preserva la memoria de tu empresa",
     "description": "EMA transforma tu experiencia en conocimiento estructurado y reutilizable mediante una entrevista guiada.",
     "disclaimer": "Nota: Las conversaciones se registran para generar tu perfil de experiencia. Nada se comparte sin tu aprobación.",
-    "profileAlt": "EMA - Enterprise Memory Agent",
+    "profileAlt": "EMA - Expert Memory Agent",
     "profileImage": "/static/logos/logo-ema.png"
   },
   "components": {
