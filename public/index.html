@@ -71,7 +71,7 @@
                 <a href="#solution-section" data-i18n="nav.solution">Solution</a>
                 <a href="#usage-section" data-i18n="nav.usage">Parcours utilisateur</a>
                 <a href="#impact-section" data-i18n="nav.impact">Retombees</a>
-                <a href="#phases-section" data-i18n="nav.phases">Phases</a>
+                <a href="#plans-section" data-i18n="nav.plans">Plans</a>
                 <a href="#contact-section" data-i18n="nav.contact">Contact</a>
                 <div class="slim-language">
                     <label for="topbar-language-selector" data-i18n="nav.language">Langue</label>
@@ -81,12 +81,15 @@
                         <option value="es">ES</option>
                     </select>
                 </div>
+                <div class="slim-auth">
+                    <a class="slim-auth-btn slim-auth-btn-secondary" href="https://imx-ema-demo.web.app/login.html" data-i18n="nav.login">Connexion</a>
+                    <a class="slim-auth-btn slim-auth-btn-primary" href="https://imx-ema-demo.web.app/signup.html" data-i18n="nav.signup">Inscription</a>
+                </div>
             </nav>
         </header>
 
         <section class="hero">
             <div class="hero-copy loading-style">
-                <div class="eyebrow"><i class="bi bi-diagram-3"></i> <span data-i18n="hero.eyebrow">Expert Memory Agent</span></div>
                 <div class="hero-brand">
                     <img src="/static/logos/logo-ema.png" alt="Logo EMA" data-i18n-alt="brand.logoAlt">
                 </div>
@@ -99,10 +102,10 @@
                         <span data-i18n="hero.startButton">Essayez-le!</span>
                     </a>
                     -->
-                    <div class="cta-button" role="status" aria-live="polite">
+                    <a class="cta-button" href="https://imx-ema-demo.web.app/signup.html" data-i18n-aria-label="nav.signup">
                         <i class="bi bi-play-circle"></i>
-                        <span data-i18n="hero.startButton">À venir!</span>
-                    </div>
+                        <span data-i18n="hero.startButton">S'inscrire</span>
+                    </a>
                 </div>
             </div>
         </section>
@@ -141,6 +144,60 @@
                 <h2 data-i18n="impact.title">Retombées</h2>
                 <p data-i18n="impact.p1">EMA facilite la capitalisation des connaissances, réduit la dépendance à la mémoire individuelle et accélère la production de contenus réutilisables pour l'onboarding, la formation, l'amélioration continue et le transfert d'expertise.</p>
                 <p data-i18n="impact.p2">Les équipes peuvent mieux comparer les pratiques, repérer les zones grises et préserver les apprentissages issus de l'expérience réelle.</p>
+            </article>
+
+            <article class="section full plans-section" id="plans-section">
+                <div class="section-icon"><i class="bi bi-bag-check"></i></div>
+                <h2 data-i18n="plans.title">Plans</h2>
+                <p class="plans-lead" data-i18n="plans.lead">Choisissez la formule qui correspond à votre niveau d'usage.</p>
+
+                <div class="plans-grid">
+                    <article class="plan-card plan-card-trial">
+                        <div class="plan-card-header">
+                            <h3 data-i18n="plans.trial.name">Essai</h3>
+                            <span class="plan-card-price">
+                                <strong data-i18n="plans.trial.price">0 $</strong>
+                                <span data-i18n="plans.perMonth">/ mois</span>
+                            </span>
+                        </div>
+                        <p class="plan-card-description" data-i18n="plans.trial.description">Idéal pour tester la plateforme.</p>
+                        <ul class="plan-card-list">
+                            <li><i class="bi bi-check-circle"></i> <span data-i18n="plans.trial.feature1">5 entretiens / sessions</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span data-i18n="plans.trial.feature2">Partage d’expertise illimité</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span data-i18n="plans.trial.feature3">Support communautaire</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span data-i18n="plans.trial.feature4">Période d’essai de 30 jours</span></li>
+                        </ul>
+                    </article>
+
+                    <article class="plan-card plan-card-pro">
+                        <div class="plan-card-header">
+                            <h3 data-i18n="plans.pro.name">Pro</h3>
+                            <span class="plan-card-price">
+                                <strong data-i18n="plans.pro.price">29 $</strong>
+                                <span data-i18n="plans.perMonth">/ mois</span>
+                            </span>
+                        </div>
+                        <p class="plan-card-description" data-i18n="plans.pro.description">Idéal pour les équipes en croissance.</p>
+                        <ul class="plan-card-list">
+                            <li><i class="bi bi-check-circle"></i> <span data-i18n="plans.pro.feature1">Entretiens / sessions illimités</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span data-i18n="plans.pro.feature2">Partage d’expertise illimité</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span data-i18n="plans.pro.feature3">Support prioritaire</span></li>
+                        </ul>
+                    </article>
+
+                    <article class="plan-card plan-card-enterprise">
+                        <div class="plan-card-header">
+                            <h3 data-i18n="plans.enterprise.name">Enterprise</h3>
+                            <span class="plan-card-price plan-card-price-soon" data-i18n="plans.enterprise.price">À venir</span>
+                        </div>
+                        <p class="plan-card-description" data-i18n="plans.enterprise.description">Pour les grandes organisations.</p>
+                        <ul class="plan-card-list">
+                            <li><i class="bi bi-check-circle"></i> <span data-i18n="plans.enterprise.feature1">Rôles et permissions personnalisés</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span data-i18n="plans.enterprise.feature2">Collaboration en équipe</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span data-i18n="plans.enterprise.feature3">Intégrations de EMA avec Slack, Teams, Google Workspace</span></li>
+                        </ul>
+                    </article>
+                </div>
             </article>
 
             <article class="section full rag-left" id="phases-section" style="display:none">
