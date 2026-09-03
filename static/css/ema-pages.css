@@ -573,11 +573,15 @@ h1 {
     letter-spacing: -0.02em;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
+    width: 150px;
+    flex: 0 0 150px;
     padding: 4px 10px;
     border-radius: 999px;
     background: rgba(67, 56, 202, 0.12);
     border: 2px solid rgba(67, 56, 202, 0.38);
     color: #2f2aa8;
+    white-space: nowrap;
 }
 
 .plan-card-price {
@@ -688,21 +692,43 @@ p:last-child {
 .flow {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 12px;
+    gap: 14px;
     margin-top: 20px;
 }
 
 .flow-step {
+    display: grid;
+    gap: 12px;
     border: 1px solid var(--line);
-    border-radius: 16px;
-    padding: 16px;
-    background: rgba(255, 255, 255, 0.68);
+    border-radius: 18px;
+    padding: 18px;
+    background: rgba(255, 255, 255, 0.76);
+    box-shadow: 0 12px 26px rgba(15, 23, 42, 0.06);
+}
+
+.flow-step-head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.flow-step-number {
+    flex: 0 0 auto;
+    display: inline-grid;
+    place-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, var(--theme-primary-soft), rgba(95, 96, 243, 0.14));
+    border: 1px solid rgba(95, 96, 243, 0.2);
+    color: var(--theme-primary-active);
+    font-weight: 800;
 }
 
 .flow-step strong {
     display: block;
     color: var(--ink);
-    margin-bottom: 8px;
+    margin: 0;
 }
 
 .flow-step span {
@@ -710,9 +736,80 @@ p:last-child {
     font-size: 0.95rem;
     line-height: 1.45;
 }
+.flow-step-content {
+    color: var(--muted);
+    font-size: 0.95rem;
+    line-height: 1.45;
+}
 .flow-step ul {
+    display: grid;
+    gap: 8px;
     padding-inline-start: 20px;
 
+}
+
+.faq-section {
+    scroll-margin-top: 90px;
+}
+
+.faq-section-header {
+    margin-bottom: 18px;
+}
+
+.faq-section-header h2 {
+    margin: 0 0 8px;
+}
+
+.faq-section-header p {
+    margin: 0;
+    color: var(--theme-text-default);
+    line-height: 1.7;
+}
+
+.faq-list {
+    display: grid;
+    gap: 12px;
+}
+
+.faq-item {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 22px rgba(15, 23, 42, 0.04);
+}
+
+.faq-question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 16px 18px;
+    color: var(--theme-text-primary);
+    font-weight: 700;
+    cursor: pointer;
+    list-style: none;
+}
+
+.faq-question::-webkit-details-marker {
+    display: none;
+}
+
+.faq-question::after {
+    content: "+";
+    font-size: 1.1rem;
+    line-height: 1;
+    color: var(--theme-primary-active);
+}
+
+.faq-item[open] .faq-question::after {
+    content: "-";
+}
+
+.faq-answer {
+    padding: 0 18px 16px;
+    color: var(--theme-text-default);
+    line-height: 1.7;
 }
 
 .role-agent-note {
@@ -877,6 +974,10 @@ p:last-child {
     .section-grid,
     .flow {
         grid-template-columns: 1fr;
+    }
+
+    .flow-step-head {
+        align-items: flex-start;
     }
 
     .plans-grid {

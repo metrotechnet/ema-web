@@ -71,6 +71,7 @@
                 <a href="#context-section" data-i18n="nav.context">Contexte</a>
                 <a href="#solution-section" data-i18n="nav.solution">Solution</a>
                 <a href="#usage-section" data-i18n="nav.usage">Parcours utilisateur</a>
+                <a href="#faq-section" data-i18n="nav.faq">FAQ</a>
                 <a href="#impact-section" data-i18n="nav.impact">Retombees</a>
                 <a href="#plans-section" data-i18n="nav.plans">Plans</a>
                 <a href="#contact-section" data-i18n="nav.contact">Contact</a>
@@ -107,7 +108,7 @@
                                 <i class="bi bi-stars"></i>
                                 <span>Découvrir EMA</span>
                             </a>
-                            <a class="cta-button cta-button-secondary" href="#solution-section" data-i18n-aria-label="nav.solution">
+                            <a class="cta-button cta-button-secondary" href="#usage-section" data-i18n-aria-label="nav.usage">
                                 <i class="bi bi-play-circle"></i>
                                 <span>Comment ça marche</span>
                             </a>
@@ -155,13 +156,94 @@
             <article class="section full" id="usage-section">
                 <div class="section-icon"><i class="bi bi-play-circle"></i></div>
                 <h2 data-i18n="usage.title">Parcours utilisateur</h2>
-                <p data-i18n="usage.p1">L'utilisateur suit un parcours en deux volets : d'abord une entrevue guidée pour structurer l'expertise, puis un espace chat pour interroger les connaissances produites et obtenir des réponses ciblées.</p>
+                <p data-i18n="how.subtitle">Un parcours en 4 étapes : découverte, entrevue, validation et partage.</p>
                 <div class="flow">
-                    <div class="flow-step"><strong data-i18n="usage.step1.title">1. Démarrer</strong><span data-i18n="usage.step1.desc">Décrire le besoin ou le processus à documenter.</span></div>
-                    <div class="flow-step"><strong data-i18n="usage.step2.title">2. Valider le plan</strong><span data-i18n="usage.step2.desc">Confirmer ou ajuster les axes de l'entrevue.</span></div>
-                    <div class="flow-step"><strong data-i18n="usage.step3.title">3. Répondre</strong><span data-i18n="usage.step3.desc">Partager les pratiques, critères, outils et cas vécus.</span></div>
-                    <div class="flow-step"><strong data-i18n="usage.step4.title">4. Confirmer</strong><span data-i18n="usage.step4.desc">Valider les récapitulatifs et la fiche finale.</span></div>
-                    <div class="flow-step"><strong data-i18n="usage.step5.title">5. Poser vos questions</strong><span data-i18n="usage.step5.desc">Poser des questions sur l'expertise consolidée et obtenir des réponses contextuelles.</span></div>
+                    <article class="flow-step">
+                        <div class="flow-step-head">
+                            <div class="flow-step-number">1</div>
+                            <strong data-i18n="how.step1Title">Étape 1 – Découvrez</strong>
+                        </div>
+                        <div class="flow-step-content">
+                            <ul>
+                                <li data-i18n="how.step1Point1">Définissez l'expertise, l'expérience ou le processus que vous souhaitez documenter.</li>
+                                <li data-i18n="how.step1Point2">EMA pourra vous poser quelques questions afin de s'assurer qu'il comprend bien votre intention et le contexte.</li>
+                                <li data-i18n="how.step1Point3">Une fois votre objectif bien compris, EMA vous proposera un plan de travail pour structurer les différents sujets à explorer.</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="flow-step">
+                        <div class="flow-step-head">
+                            <div class="flow-step-number">2</div>
+                            <strong data-i18n="how.step2Title">Étape 2 – Interviewez</strong>
+                        </div>
+                        <div class="flow-step-content">
+                            <ul>
+                                <li data-i18n="how.step2Point1">Répondez aux questions qu'EMA vous suggère en suivant le plan proposé.</li>
+                                <li data-i18n="how.step2Point2">Vous pouvez également y aller sans filet et discuter librement de votre sujet.</li>
+                                <li data-i18n="how.step2Point3">Durant la conversation, EMA prend des notes et organise les informations recueillies afin de les transformer en connaissances structurées.</li>
+                                <li data-i18n="how.step2Point4">Ajoutez des fichiers contenant des informations complémentaires. EMA les analysera et les intégrera aux connaissances recueillies.</li>
+                                <li data-i18n="how.step2Point5">Générez un résumé de votre conversation dans l'onglet Résumé, puis validez et, au besoin, corrigez les notes prises par EMA.</li>
+                                <li data-i18n="how.step2Point6">Une fois l'entrevue terminée, rendez-vous dans l'onglet Discussion pour interroger EMA et tester les connaissances qu'il a acquises.</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="flow-step">
+                        <div class="flow-step-head">
+                            <div class="flow-step-number">3</div>
+                            <strong data-i18n="how.step3Title">Étape 3 – Validez</strong>
+                        </div>
+                        <div class="flow-step-content">
+                            <ul>
+                                <li data-i18n="how.step3Point1">Validez EMA sur les connaissances qu'il a acquises pendant l'entrevue.</li>
+                                <li data-i18n="how.step3Point2">Confirmez ce qui est juste, corrigez ce qui doit l'être et complétez les éléments manquants si nécessaire.</li>
+                                <li data-i18n="how.step3Point3">Cette étape permet de fiabiliser la synthèse avant de la partager.</li>
+                            </ul>
+                        </div>
+                    </article>
+                    <article class="flow-step">
+                        <div class="flow-step-head">
+                            <div class="flow-step-number">4</div>
+                            <strong data-i18n="how.step4Title">Étape 4 – Partagez</strong>
+                        </div>
+                        <div class="flow-step-content">
+                            <ul>
+                                <li data-i18n="how.step4Point1">Partagez votre expertise avec des collègues ou d'autres personnes de votre choix.</li>
+                                <li data-i18n="how.step4Point2">Regroupez plusieurs expertises sous des thèmes et partagez également ces groupes.</li>
+                                <li data-i18n="how.step4Point3">Les personnes avec qui vous partagez votre expertise pourront interroger EMA afin d'en apprendre davantage sur le sujet.</li>
+                                <li data-i18n="how.step4Point4">Recommencez! Capturez une nouvelle expérience, documentez une autre expertise et partagez vos connaissances.</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </article>
+
+            <article class="section full faq-section" id="faq-section">
+                <div class="section-icon"><i class="bi bi-question-circle"></i></div>
+                <div class="faq-section-header">
+                    <h2 data-i18n="faq.title">FAQ</h2>
+                    <p data-i18n="faq.subtitle">Questions fréquentes sur l'utilisation d'EMA.</p>
+                </div>
+
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary class="faq-question" data-i18n="faq.q1">Est-ce qu'on peut capturer tous les types d'expertise?</summary>
+                        <div class="faq-answer" data-i18n="faq.a1">Oui. EMA utilise ses capacités d'analyse et ses connaissances générales pour vous proposer un plan de travail adapté à votre domaine, à votre expertise et à ce que vous souhaitez documenter.</div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary class="faq-question" data-i18n="faq.q2">Peut-on partager un ensemble d'expertises?</summary>
+                        <div class="faq-answer" data-i18n="faq.a2">Oui. Regroupez vos expertises par thèmes et partagez ensuite le groupe. La personne qui reçoit l'invitation pourra interroger EMA sur l'ensemble des connaissances contenues dans ce thème en sélectionnant le groupe. Elle pourra également sélectionner une expertise précise pour obtenir des réponses plus ciblées.</div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary class="faq-question" data-i18n="faq.q3">Peut-on joindre différents types de documents?</summary>
+                        <div class="faq-answer" data-i18n="faq.a3">Oui. Qu'il s'agisse de documents PDF, Word, texte ou Excel, EMA peut en extraire les informations pertinentes et les intégrer à sa base de connaissances. Vous pouvez également joindre des formulaires ou d'autres documents de référence afin d'enrichir l'expertise partagée et d'aider les personnes qui la consultent.</div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary class="faq-question" data-i18n="faq.q4">Est-ce que les documents et les informations sont sécurisés?</summary>
+                        <div class="faq-answer" data-i18n="faq.a4">Oui. Les informations et les fichiers sont conservés sur une plateforme sécurisée. Vous contrôlez les personnes avec qui vous partagez vos connaissances et pouvez retirer un accès en tout temps. Vous gardez ainsi le contrôle sur vos expertises, vos documents et les personnes qui peuvent y accéder.</div>
+                    </details>
                 </div>
             </article>
 
