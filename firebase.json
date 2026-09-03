@@ -15,14 +15,6 @@
     ],
     "rewrites": [
       {
-        "source": "/help",
-        "destination": "/help.html"
-      },
-      {
-        "source": "/help/**",
-        "destination": "/help.html"
-      },
-      {
         "source": "/dev",
         "destination": "/index.html"
       },

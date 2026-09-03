@@ -27,12 +27,6 @@ if %errorlevel% neq 0 (
   exit /b 1
 )
 
-copy /Y "templates\help.html" "public\help.html" >nul
-if %errorlevel% neq 0 (
-  echo ERROR: Failed to copy templates\help.html to public\help.html
-  exit /b 1
-)
-
 xcopy "static" "public\static\" /E /I /Y >nul
 if %errorlevel% geq 4 (
   echo ERROR: Failed to copy static assets to public\static
