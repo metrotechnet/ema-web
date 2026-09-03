@@ -25,6 +25,7 @@
     <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="/static/css/00-theme-colors.css">
     <link rel="stylesheet" href="/static/css/ema-pages.css">
     <script type="application/ld+json">
         {
@@ -88,24 +89,49 @@
             </nav>
         </header>
 
-        <section class="hero">
-            <div class="hero-copy loading-style">
-                <div class="hero-brand">
-                    <img src="/static/logos/logo-ema.png" alt="Logo EMA" data-i18n-alt="brand.logoAlt">
-                </div>
-                <h1 class="app-name" data-i18n="hero.title">Préservez la mémoire de votre entreprise</h1>
-                <p class="lead" data-i18n="hero.lead">EMA transforme votre expertise en connaissances structurées et réutilisables grâce à une entrevue guidée.</p>
-                <div class="hero-actions">
-                    <!--
-                    <a class="cta-button" id="hero-start-link" href="" target="_blank" rel="noopener noreferrer" data-i18n-aria-label="hero.startButtonAria">
-                        <i class="bi bi-play-circle"></i>
-                        <span data-i18n="hero.startButton">Essayez-le!</span>
-                    </a>
-                    -->
-                    <a class="cta-button" href="https://imx-ema-demo.web.app/signup.html" data-i18n-aria-label="nav.signup">
-                        <i class="bi bi-play-circle"></i>
-                        <span data-i18n="hero.startButton">S'inscrire</span>
-                    </a>
+        <section class="hero" aria-label="Présentation d'EMA">
+            <div class="hero-visual" aria-label="Aperçu de l'application EMA">
+                <div class="hero-demo-shell">
+                    <img src="/static/images/background-hero-and-interface.png" alt="Aperçu d'EMA dans une interface d'entrevue assistée par IA" />
+
+                    <div class="hero-overlay-content">
+                        <div class="hero-brand">
+                            <img src="/static/logos/logo-ema-transparent.png" alt="Logo EMA" data-i18n-alt="brand.logoAlt">
+                        </div>
+
+                        <h1 class="app-name">Transformez<br>l'expertise tacite<br><span class="app-name-highlight">en connaissances structurées.</span></h1>
+                        <p class="lead">EMA vous guide dans une entrevue intelligente pour capturer, structurer et partager ce qui compte vraiment.</p>
+
+                        <div class="hero-actions">
+                            <a class="cta-button" href="https://imx-ema-demo.web.app/signup.html" data-i18n-aria-label="nav.signup">
+                                <i class="bi bi-stars"></i>
+                                <span>Découvrir EMA</span>
+                            </a>
+                            <a class="cta-button cta-button-secondary" href="#solution-section" data-i18n-aria-label="nav.solution">
+                                <i class="bi bi-play-circle"></i>
+                                <span>Comment ça marche</span>
+                            </a>
+                        </div>
+
+                        <div class="hero-features" aria-label="Fonctionnalités EMA">
+                            <div class="feature-item">
+                                <span class="feature-icon"><i class="bi bi-chat-dots"></i></span>
+                                <span>Entrevue guidée par IA</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon"><i class="bi bi-kanban"></i></span>
+                                <span>Structuration intelligente</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon"><i class="bi bi-people"></i></span>
+                                <span>Connaissances centralisées</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon"><i class="bi bi-share"></i></span>
+                                <span>Partage et collaboration</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
