@@ -46,7 +46,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
     color: var(--ink);
     background:
-        linear-gradient(180deg, #f5f3ff 0%, #eef2ff 100%);
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.98) 0%, rgba(248, 250, 252, 0.94) 34%, rgba(239, 246, 255, 0.9) 100%);
 }
 
 html {
@@ -54,9 +54,9 @@ html {
 }
 
 .page-shell {
-    width: min(1320px, calc(100% - 32px));
+    width: min(1280px, calc(100% - 32px));
     margin: 0 auto;
-    padding: 22px 0 56px;
+    padding: 20px 0 64px;
 }
 
 /*
@@ -505,12 +505,17 @@ h1 {
 .section-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 20px;
+    gap: 22px;
+    margin-top: 24px;
 }
 
 .section {
-    border-radius: 22px;
-    padding: 28px;
+    border-radius: 24px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.82);
+    border: 1px solid rgba(226, 232, 240, 0.9);
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.06);
+    backdrop-filter: blur(10px);
 }
 
 .section.full {
@@ -524,15 +529,15 @@ h1 {
     place-items: center;
     border-radius: 14px;
     color: #ffffff;
-    background: linear-gradient(135deg, var(--theme-primary), var(--theme-accent-info-text));
-    margin-bottom: 18px;
+    background: linear-gradient(135deg, rgba(95, 96, 243, 0.96), rgba(37, 99, 235, 0.96));
+    margin-bottom: 20px;
     font-size: 1.25rem;
 }
 
-.section:nth-child(2) .section-icon { background: linear-gradient(135deg, var(--theme-success), var(--theme-accent-info-text)); }
-.section:nth-child(3) .section-icon { background: linear-gradient(135deg, var(--theme-brand-end), var(--theme-primary)); }
-.section:nth-child(4) .section-icon { background: linear-gradient(135deg, #f59e0b, var(--theme-success)); }
-.section:nth-child(5) .section-icon { background: linear-gradient(135deg, #0f766e, var(--theme-primary)); }
+.section:nth-child(2) .section-icon { background: linear-gradient(135deg, rgba(34, 176, 125, 0.96), rgba(37, 99, 235, 0.96)); }
+.section:nth-child(3) .section-icon { background: linear-gradient(135deg, rgba(118, 75, 162, 0.96), rgba(95, 96, 243, 0.96)); }
+.section:nth-child(4) .section-icon { background: linear-gradient(135deg, rgba(245, 158, 11, 0.96), rgba(34, 176, 125, 0.96)); }
+.section:nth-child(5) .section-icon { background: linear-gradient(135deg, rgba(15, 118, 110, 0.96), rgba(95, 96, 243, 0.96)); }
 
 .plans-section .section-icon {
     background: linear-gradient(135deg, var(--theme-brand-end), var(--theme-primary));
@@ -545,41 +550,42 @@ h1 {
 .plans-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 16px;
-    margin-top: 18px;
+    gap: 18px;
+    margin-top: 22px;
 }
 
 .plan-card {
     display: flex;
     flex-direction: column;
-    gap: 14px;
-    padding: 20px;
-    border-radius: 20px;
-    border: 1px solid rgba(95, 96, 243, 0.12);
-    background: rgba(255, 255, 255, 0.82);
-    box-shadow: 0 14px 32px rgba(24, 32, 51, 0.08);
+    gap: 16px;
+    padding: 22px;
+    border-radius: 22px;
+    border: 1px solid rgba(226, 232, 240, 0.96);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(248, 250, 252, 0.92));
+    box-shadow: 0 16px 36px rgba(15, 23, 42, 0.07);
 }
 
 .plan-card-header {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 12px;
+    gap: 14px;
 }
 
 .plan-card h3 {
     margin: 0;
-    font-size: 1.25rem;
+    font-size: 1.14rem;
     letter-spacing: -0.02em;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 150px;
-    flex: 0 0 150px;
-    padding: 4px 10px;
+    width: 138px;
+    flex: 0 0 138px;
+    min-height: 42px;
+    padding: 6px 12px;
     border-radius: 999px;
     background: rgba(67, 56, 202, 0.12);
-    border: 2px solid rgba(67, 56, 202, 0.38);
+    border: 1px solid rgba(67, 56, 202, 0.22);
     color: #2f2aa8;
     white-space: nowrap;
 }
@@ -594,7 +600,7 @@ h1 {
 }
 
 .plan-card-price strong {
-    font-size: 1.4rem;
+    font-size: 1.55rem;
     line-height: 1;
     color: #1d2270;
 }
@@ -603,10 +609,11 @@ h1 {
     font-size: 0.95rem;
     display: inline-flex;
     align-items: center;
-    padding: 4px 10px;
+    min-height: 42px;
+    padding: 6px 12px;
     border-radius: 999px;
     background: rgba(67, 56, 202, 0.12);
-    border: 2px solid rgba(67, 56, 202, 0.42);
+    border: 1px solid rgba(67, 56, 202, 0.22);
     color: #2f2aa8;
     font-weight: 800;
 }
@@ -640,7 +647,7 @@ h1 {
     padding: 0;
     margin: 0;
     display: grid;
-    gap: 10px;
+    gap: 12px;
 }
 
 .plan-card-list li {
@@ -692,18 +699,18 @@ p:last-child {
 .flow {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 14px;
-    margin-top: 20px;
+    gap: 16px;
+    margin-top: 24px;
 }
 
 .flow-step {
     display: grid;
-    gap: 12px;
-    border: 1px solid var(--line);
-    border-radius: 18px;
-    padding: 18px;
-    background: rgba(255, 255, 255, 0.76);
-    box-shadow: 0 12px 26px rgba(15, 23, 42, 0.06);
+    gap: 14px;
+    border: 1px solid rgba(226, 232, 240, 0.96);
+    border-radius: 22px;
+    padding: 20px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(248, 250, 252, 0.92));
+    box-shadow: 0 16px 36px rgba(15, 23, 42, 0.06);
 }
 
 .flow-step-head {
@@ -716,11 +723,11 @@ p:last-child {
     flex: 0 0 auto;
     display: inline-grid;
     place-items: center;
-    width: 36px;
-    height: 36px;
+    width: 38px;
+    height: 38px;
     border-radius: 12px;
-    background: linear-gradient(135deg, var(--theme-primary-soft), rgba(95, 96, 243, 0.14));
-    border: 1px solid rgba(95, 96, 243, 0.2);
+    background: linear-gradient(135deg, rgba(95, 96, 243, 0.12), rgba(37, 99, 235, 0.12));
+    border: 1px solid rgba(95, 96, 243, 0.18);
     color: var(--theme-primary-active);
     font-weight: 800;
 }
@@ -749,6 +756,7 @@ p:last-child {
 }
 
 .faq-section {
+    margin-top: 4px;
     scroll-margin-top: 90px;
 }
 
@@ -772,11 +780,11 @@ p:last-child {
 }
 
 .faq-item {
-    background: rgba(255, 255, 255, 0.9);
-    border: 1px solid var(--line);
-    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(248, 250, 252, 0.94));
+    border: 1px solid rgba(226, 232, 240, 0.96);
+    border-radius: 18px;
     overflow: hidden;
-    box-shadow: 0 10px 22px rgba(15, 23, 42, 0.04);
+    box-shadow: 0 12px 28px rgba(15, 23, 42, 0.05);
 }
 
 .faq-question {
@@ -784,7 +792,7 @@ p:last-child {
     align-items: center;
     justify-content: space-between;
     gap: 12px;
-    padding: 16px 18px;
+    padding: 17px 18px;
     color: var(--theme-text-primary);
     font-weight: 700;
     cursor: pointer;
@@ -807,7 +815,7 @@ p:last-child {
 }
 
 .faq-answer {
-    padding: 0 18px 16px;
+    padding: 0 18px 18px;
     color: var(--theme-text-default);
     line-height: 1.7;
 }
@@ -886,22 +894,23 @@ p:last-child {
 }
 
 .contact-footer {
-    margin-top: 22px;
-    padding: 24px 28px;
-    border-radius: 22px;
-    background: linear-gradient(135deg, var(--theme-brand-start), var(--theme-brand-end));
+    margin-top: 24px;
+    padding: 26px 28px;
+    border-radius: 24px;
+    background: linear-gradient(135deg, #0b0f19, #111827);
+    border: 1px solid rgba(255, 255, 255, 0.08);
     color: var(--theme-text-inverse);
     text-align: center;
-    box-shadow: var(--shadow);
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.18);
 }
 
 .contact-footer p {
-    color: rgba(255, 255, 255, 0.88);
+    color: rgba(255, 255, 255, 0.9);
     margin: 0;
 }
 
 .contact-footer a {
-    color: #d1fae5;
+    color: #93c5fd;
     font-weight: 750;
     text-decoration: none;
 }
