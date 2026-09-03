@@ -158,6 +158,38 @@ html {
     color: var(--theme-text-secondary);
 }
 
+.topbar-language-selector {
+    appearance: none;
+    -webkit-appearance: none;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(238, 242, 255, 0.95));
+    border: 1px solid rgba(79, 70, 229, 0.2);
+    border-radius: 999px;
+    color: var(--theme-primary-active);
+    font-size: 0.72rem;
+    font-weight: 700;
+    line-height: 1;
+    min-width: 72px;
+    height: 32px;
+    padding: 0.5rem 1.9rem 0.5rem 0.8rem;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(79, 70, 229, 0.08);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 16 16'%3E%3Cpath fill='%234f46e5' d='M7.247 11.14L2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592c.859 0 1.319 1.013.753 1.658l-4.796 5.482a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 0.7rem) center;
+    background-size: 12px 12px;
+}
+
+.topbar-language-selector:focus {
+    outline: none;
+    border-color: rgba(79, 70, 229, 0.35);
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.14);
+}
+
+.topbar-language-selector option {
+    color: var(--theme-text-primary);
+    font-weight: 600;
+}
+
 /*
 ----------------------------------------------------
  Hero and primary actions
@@ -205,6 +237,7 @@ html {
     width: min(46%, 510px);
     padding: clamp(28px, 3vw, 52px) clamp(22px, 2.8vw, 46px);
     pointer-events: none;
+    height: fit-content;
 }
 
 .hero-overlay-content > * {
@@ -700,7 +733,7 @@ p:last-child {
     align-items: center;
     gap: 10px;
     padding: 0;
-    cursor: pointer;
+    cursor: default;
     list-style: none;
     text-align: center;
 }
@@ -824,6 +857,11 @@ p:last-child {
     font-weight: 700;
     cursor: pointer;
     list-style: none;
+    transition: background-color 0.2s ease;
+}
+
+.faq-item[open] .faq-question {
+    background: rgba(79, 70, 229, 0.04);
 }
 
 .faq-question::-webkit-details-marker {
@@ -835,16 +873,33 @@ p:last-child {
     font-size: 1.1rem;
     line-height: 1;
     color: var(--theme-primary-active);
+    transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 .faq-item[open] .faq-question::after {
     content: "-";
+    transform: rotate(180deg);
 }
 
 .faq-answer {
-    padding: 0 18px 18px;
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.28s ease, opacity 0.2s ease, padding 0.2s ease;
+    opacity: 0;
+    overflow: hidden;
     color: var(--theme-text-default);
     line-height: 1.7;
+    padding: 0 18px 0;
+}
+
+.faq-item[open] .faq-answer {
+    grid-template-rows: 1fr;
+    opacity: 1;
+    padding: 0 18px 18px;
+}
+
+.faq-answer > * {
+    overflow: hidden;
 }
 
 .role-agent-note {
@@ -923,7 +978,6 @@ p:last-child {
 .contact-footer {
     margin-top: 24px;
     padding: 26px 28px;
-    border-radius: 24px;
     background: linear-gradient(135deg, #0b0f19, #111827);
     border: 1px solid rgba(255, 255, 255, 0.08);
     color: var(--theme-text-inverse);
@@ -998,6 +1052,11 @@ p:last-child {
         padding-top: 6px;
         border-top: 1px solid rgba(37, 99, 235, 0.14);
         justify-content: flex-start;
+    }
+
+    .topbar-language-selector {
+        width: 100%;
+        min-width: 0;
     }
 
     .slim-auth {
