@@ -25,6 +25,8 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
 
         if path in {"/", "/index", "/index.html"}:
             return "SERVE_INDEX_TEMPLATE"
+        if path in {"/help", "/help.html"}:
+            return "SERVE_HELP_TEMPLATE"
         if path in {"/log_report", "/log_report.html"}:
             return "SERVE_LOG_REPORT_TEMPLATE"
 
@@ -41,6 +43,7 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
 
         template_map = {
             "SERVE_INDEX_TEMPLATE": "index.html",
+            "SERVE_HELP_TEMPLATE": "help.html",
             "SERVE_LOG_REPORT_TEMPLATE": "log_report.html",
         }
 
