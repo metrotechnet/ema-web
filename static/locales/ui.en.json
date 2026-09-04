@@ -1,5 +1,4 @@
 {
- 
   "landing": {
     "title": "EMA | Solution Overview",
     "nav": {
@@ -11,29 +10,25 @@
       "usage": "Journey",
       "faq": "FAQ",
       "impact": "Impact",
-      "phases": "Phases",
       "contact": "Contact",
       "login": "Login",
-      "signup": "Sign up",
-      "startInterview": "Start"
+      "signup": "Sign up"
     },
     "brand": {
       "logoAlt": "EMA logo"
     },
     "hero": {
-      "eyebrow": "Expert Memory Agent",
-      "title": "Transform your teams' know-how<br><span class=\"app-name-highlight\">into structured knowledge.</span>",
-      "lead": "EMA guides you through an intelligent interview to capture, structure, and share your expertise.",
+      "title": "Turn your team’s know-how<br><span class=\"app-name-highlight\">into structured knowledge.</span>",
+      "lead": "EMA guides you through an intelligent interview to capture, structure, and share what truly matters.",
       "primaryButton": "Discover EMA",
       "primaryActionAria": "Discover EMA",
-      "secondaryButton": "How it works",
+      "secondaryButton": "See the steps",
       "secondaryActionAria": "View the user journey",
       "featuresAria": "EMA features",
       "feature1": "AI-guided interview",
       "feature2": "Smart structuring",
       "feature3": "Centralized knowledge",
-      "feature4": "Sharing and collaboration",
-      "startButton": "Sign up"
+      "feature4": "Sharing and collaboration"
     },
     "startModal": {
       "title": "Welcome to EMA",
@@ -49,20 +44,10 @@
     "solution": {
       "title": "Provided solution: EMA",
       "p1": "EMA behaves like an intelligent interviewer: it moves forward one question at a time, structures the conversation around a clear plan, explores each validated axis, and delivers interim syntheses before producing a final expertise profile.",
-      "p2": "Its goal is to turn tacit expertise into explicit knowledge, without forcing the user to write complete documentation.",
-      "chip1": "Guided interview",
-      "chip2": "Validated plan",
-      "chip3": "Controlled summaries"
+      "p2": "Its goal is to turn tacit expertise into explicit knowledge, without forcing the user to write complete documentation."
     },
     "usage": {
-      "title": "How it works",
-      "p1": "The user follows a two-part journey: first a guided interview to structure expertise, then a chat space to query the produced knowledge and get targeted answers.",
-      "startButton": "Start the interview",
-      "step1": { "title": "1. Start", "desc": "Describe the need or process to document." },
-      "step2": { "title": "2. Validate the plan", "desc": "Confirm or adjust the interview axes." },
-      "step3": { "title": "3. Answer", "desc": "Share practices, criteria, tools, and real cases." },
-      "step4": { "title": "4. Confirm", "desc": "Validate summaries and the final profile." },
-      "step5": { "title": "5. Ask your questions", "desc": "Ask questions about consolidated expertise and receive contextual answers." }
+      "title": "How it works"
     },
     "how": {
       "subtitle": "A 4-step journey.",
@@ -94,7 +79,6 @@
     },
     "faq": {
       "title": "FAQ",
-      "subtitle": "Frequently asked questions about using EMA.",
       "q1": "Can we capture all types of expertise?",
       "a1": "Yes. EMA uses its analysis capabilities and general knowledge to suggest a work plan adapted to your domain, your expertise, and what you want to document.",
       "q2": "Can we share a group of expertise items?",
@@ -143,10 +127,47 @@
       "sectionTitle": "Development roadmap",
       "accordionToggle": "Show phase details",
       "featuresLabel": "Key features",
-      "step1": { "title": "Phase 1 - Expertise capture and enhancement", "desc": "The first phase enables organizations to quickly capture employee know-how through intelligent AI-guided interviews. The platform automatically transforms tacit knowledge into structured content that is searchable and reusable across the organization.", "item1": "Organization, team, and user management", "item2": "AI-assisted interviews", "item3": "Speech recognition and automatic transcription", "item4": "Adaptive questions and validation of collected information", "item5": "Automatic generation of structured expertise profiles", "item6": "Upload and association of reference documents", "item7": "Centralized knowledge base", "item8": "Conversational agent to query captured expertise" },
-      "step2": { "title": "Phase 2 - Multimodal knowledge capture", "desc": "This phase enriches expertise collection by integrating video, screen sharing, and visual content analysis. EMA can then document not only what experts know, but also what they do.", "item1": "Video recording of interviews and demonstrations", "item2": "Screen capture and sharing", "item3": "Automated analysis of images, documents, and visual content", "item4": "Extraction of procedures and working methods", "item5": "Automatic generation of illustrated guides and operational documentation" },
-      "step3": { "title": "Phase 3 - Intelligent organizational memory", "desc": "At this stage, individual knowledge is consolidated to create true organizational memory. The company benefits from a single repository that brings together expertise from multiple employees and existing documentary knowledge.", "item1": "Consolidation of knowledge from multiple experts", "item2": "Collaborative validation and enrichment of content", "item3": "Integration with company documents and systems", "item4": "Advanced search across all knowledge", "item5": "Global conversational agent able to answer from the entire organizational memory" },
-      "step4": { "title": "Phase 4 - Organizational intelligence and strategic succession", "desc": "The final phase transforms accumulated knowledge into business intelligence. EMA helps managers identify risks, plan succession, and develop the organization's strategic capabilities.", "item1": "Identification of critical experts and knowledge", "item2": "Risk analysis related to expertise loss", "item3": "Detection of knowledge gaps and training needs", "item4": "Mapping of organizational competencies", "item5": "Support for succession planning", "item6": "Decision-support dashboards and strategic indicators", "item7": "Automated generation of training and knowledge transfer content" }
+      "step1": {
+        "title": "Phase 1 - Expertise capture and enhancement",
+        "desc": "The first phase enables organizations to quickly capture employee know-how through intelligent AI-guided interviews. The platform automatically transforms tacit knowledge into structured content that is searchable and reusable across the organization.",
+        "item1": "Organization, team, and user management",
+        "item2": "AI-assisted interviews",
+        "item3": "Speech recognition and automatic transcription",
+        "item4": "Adaptive questions and validation of collected information",
+        "item5": "Automatic generation of structured expertise profiles",
+        "item6": "Upload and association of reference documents",
+        "item7": "Centralized knowledge base",
+        "item8": "Conversational agent to query captured expertise"
+      },
+      "step2": {
+        "title": "Phase 2 - Multimodal knowledge capture",
+        "desc": "This phase enriches expertise collection by integrating video, screen sharing, and visual content analysis. EMA can then document not only what experts know, but also what they do.",
+        "item1": "Video recording of interviews and demonstrations",
+        "item2": "Screen capture and sharing",
+        "item3": "Automated analysis of images, documents, and visual content",
+        "item4": "Extraction of procedures and working methods",
+        "item5": "Automatic generation of illustrated guides and operational documentation"
+      },
+      "step3": {
+        "title": "Phase 3 - Intelligent organizational memory",
+        "desc": "At this stage, individual knowledge is consolidated to create true organizational memory. The company benefits from a single repository that brings together expertise from multiple employees and existing documentary knowledge.",
+        "item1": "Consolidation of knowledge from multiple experts",
+        "item2": "Collaborative validation and enrichment of content",
+        "item3": "Integration with company documents and systems",
+        "item4": "Advanced search across all knowledge",
+        "item5": "Global conversational agent able to answer from the entire organizational memory"
+      },
+      "step4": {
+        "title": "Phase 4 - Organizational intelligence and strategic succession",
+        "desc": "The final phase transforms accumulated knowledge into business intelligence. EMA helps managers identify risks, plan succession, and develop the organization's strategic capabilities.",
+        "item1": "Identification of critical experts and knowledge",
+        "item2": "Risk analysis related to expertise loss",
+        "item3": "Detection of knowledge gaps and training needs",
+        "item4": "Mapping of organizational competencies",
+        "item5": "Support for succession planning",
+        "item6": "Decision-support dashboards and strategic indicators",
+        "item7": "Automated generation of training and knowledge transfer content"
+      }
     },
     "footer": {
       "ariaLabel": "Contact IMX Technologie",

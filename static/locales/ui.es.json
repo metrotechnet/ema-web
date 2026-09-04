@@ -1,5 +1,4 @@
 {
-  
   "landing": {
     "title": "EMA | Explicación de la solución",
     "nav": {
@@ -11,29 +10,25 @@
       "usage": "Recorrido",
       "faq": "FAQ",
       "impact": "Impacto",
-      "phases": "Fases",
       "contact": "Contacto",
       "login": "Iniciar sesión",
-      "signup": "Registrarse",
-      "startInterview": "Empezar"
+      "signup": "Registrarse"
     },
     "brand": {
       "logoAlt": "Logo de EMA"
     },
     "hero": {
-      "eyebrow": "Expert Memory Agent",
       "title": "Transforma el saber hacer de tus equipos<br><span class=\"app-name-highlight\">en conocimiento estructurado.</span>",
       "lead": "EMA te guía en una entrevista inteligente para capturar, estructurar y compartir tu experiencia.",
       "primaryButton": "Descubrir EMA",
       "primaryActionAria": "Descubrir EMA",
-      "secondaryButton": "Cómo funciona",
+      "secondaryButton": "Ver los pasos",
       "secondaryActionAria": "Ver el recorrido del usuario",
       "featuresAria": "Funcionalidades de EMA",
       "feature1": "Entrevista guiada por IA",
       "feature2": "Estructuración inteligente",
       "feature3": "Conocimiento centralizado",
-      "feature4": "Compartir y colaborar",
-      "startButton": "Registrarse"
+      "feature4": "Compartir y colaborar"
     },
     "startModal": {
       "title": "Bienvenido a EMA",
@@ -49,20 +44,10 @@
     "solution": {
       "title": "Solución propuesta: EMA",
       "p1": "EMA se comporta como un entrevistador inteligente: avanza pregunta por pregunta, estructura el intercambio alrededor de un plan claro, explora cada eje validado y entrega síntesis intermedias antes de generar una ficha final de experiencia.",
-      "p2": "Su objetivo es transformar la experiencia tácita en conocimiento explícito, sin imponer a la persona usuaria la redacción de una documentación completa.",
-      "chip1": "Entrevista guiada",
-      "chip2": "Plan validado",
-      "chip3": "Resúmenes controlados"
+      "p2": "Su objetivo es transformar la experiencia tácita en conocimiento explícito, sin imponer a la persona usuaria la redacción de una documentación completa."
     },
     "usage": {
-      "title": "Cómo funciona",
-      "p1": "La persona sigue un recorrido en dos partes: primero una entrevista guiada para estructurar la experiencia y luego un espacio de chat para consultar el conocimiento generado y obtener respuestas específicas.",
-      "startButton": "Empezar la entrevista",
-      "step1": { "title": "1. Iniciar", "desc": "Describir la necesidad o el proceso a documentar." },
-      "step2": { "title": "2. Validar el plan", "desc": "Confirmar o ajustar los ejes de la entrevista." },
-      "step3": { "title": "3. Responder", "desc": "Compartir prácticas, criterios, herramientas y casos reales." },
-      "step4": { "title": "4. Confirmar", "desc": "Validar los resúmenes y la ficha final." },
-      "step5": { "title": "5. Haz tus preguntas", "desc": "Hacer preguntas sobre la experiencia consolidada y obtener respuestas contextuales." }
+      "title": "Cómo funciona"
     },
     "how": {
       "subtitle": "Un recorrido en 4 etapas.",
@@ -94,7 +79,6 @@
     },
     "faq": {
       "title": "FAQ",
-      "subtitle": "Preguntas frecuentes sobre el uso de EMA.",
       "q1": "¿Se puede capturar todo tipo de conocimientos?",
       "a1": "Sí. EMA usa sus capacidades de análisis y su conocimiento general para proponerte un plan de trabajo adaptado a tu área, a tu experiencia y a lo que quieres documentar.",
       "q2": "¿Se puede compartir un grupo de conocimientos?",
@@ -143,10 +127,47 @@
       "sectionTitle": "Hoja de ruta de desarrollo",
       "accordionToggle": "Mostrar detalles de las fases",
       "featuresLabel": "Funcionalidades clave",
-      "step1": { "title": "Fase 1 - Captura y valorización de la experiencia", "desc": "La primera fase permite a las organizaciones capturar rápidamente el saber hacer de sus empleados mediante entrevistas inteligentes guiadas por IA. La plataforma transforma automáticamente el conocimiento tácito en contenidos estructurados, consultables y reutilizables en toda la organización.", "item1": "Gestión de organizaciones, equipos y usuarios", "item2": "Entrevistas asistidas por inteligencia artificial", "item3": "Reconocimiento de voz y transcripción automática", "item4": "Preguntas adaptativas y validación de la información recopilada", "item5": "Generación automática de fichas de experiencia estructuradas", "item6": "Carga y asociación de documentos de referencia", "item7": "Base de conocimiento centralizada", "item8": "Agente conversacional para consultar la experiencia capturada" },
-      "step2": { "title": "Fase 2 - Captura multimodal del conocimiento", "desc": "Esta fase enriquece la recopilación de experiencia al integrar video, uso compartido de pantalla y análisis de contenido visual. EMA puede entonces documentar no solo lo que los expertos saben, sino también lo que hacen.", "item1": "Grabación en video de entrevistas y demostraciones", "item2": "Captura y uso compartido de pantalla", "item3": "Análisis automatizado de imágenes, documentos y contenido visual", "item4": "Extracción de procedimientos y métodos de trabajo", "item5": "Generación automática de guías ilustradas y documentación operativa" },
-      "step3": { "title": "Fase 3 - Memoria organizacional inteligente", "desc": "En esta etapa, el conocimiento individual se consolida para crear una verdadera memoria organizacional. La empresa se beneficia de un repositorio único que reúne la experiencia de varios empleados y el conocimiento documental existente.", "item1": "Consolidación del conocimiento proveniente de varios expertos", "item2": "Validación colaborativa y enriquecimiento de contenidos", "item3": "Integración con documentos y sistemas de la empresa", "item4": "Búsqueda avanzada en todo el conocimiento", "item5": "Agente conversacional global capaz de responder desde toda la memoria organizacional" },
-      "step4": { "title": "Fase 4 - Inteligencia organizacional y relevo estratégico", "desc": "La última fase transforma el conocimiento acumulado en inteligencia de negocio. EMA ayuda a los gestores a identificar riesgos, planificar el relevo y desarrollar las capacidades estratégicas de la organización.", "item1": "Identificación de expertos y conocimientos críticos", "item2": "Análisis de riesgos vinculados a la pérdida de experiencia", "item3": "Detección de brechas de conocimiento y necesidades de formación", "item4": "Mapeo de competencias organizacionales", "item5": "Apoyo a la planificación del relevo", "item6": "Paneles de control para decisiones e indicadores estratégicos", "item7": "Generación automatizada de contenidos de formación y transferencia de conocimiento" }
+      "step1": {
+        "title": "Fase 1 - Captura y valorización de la experiencia",
+        "desc": "La primera fase permite a las organizaciones capturar rápidamente el saber hacer de sus empleados mediante entrevistas inteligentes guiadas por IA. La plataforma transforma automáticamente el conocimiento tácito en contenidos estructurados, consultables y reutilizables en toda la organización.",
+        "item1": "Gestión de organizaciones, equipos y usuarios",
+        "item2": "Entrevistas asistidas por inteligencia artificial",
+        "item3": "Reconocimiento de voz y transcripción automática",
+        "item4": "Preguntas adaptativas y validación de la información recopilada",
+        "item5": "Generación automática de fichas de experiencia estructuradas",
+        "item6": "Carga y asociación de documentos de referencia",
+        "item7": "Base de conocimiento centralizada",
+        "item8": "Agente conversacional para consultar la experiencia capturada"
+      },
+      "step2": {
+        "title": "Fase 2 - Captura multimodal del conocimiento",
+        "desc": "Esta fase enriquece la recopilación de experiencia al integrar video, uso compartido de pantalla y análisis de contenido visual. EMA puede entonces documentar no solo lo que los expertos saben, sino también lo que hacen.",
+        "item1": "Grabación en video de entrevistas y demostraciones",
+        "item2": "Captura y uso compartido de pantalla",
+        "item3": "Análisis automatizado de imágenes, documentos y contenido visual",
+        "item4": "Extracción de procedimientos y métodos de trabajo",
+        "item5": "Generación automática de guías ilustradas y documentación operativa"
+      },
+      "step3": {
+        "title": "Fase 3 - Memoria organizacional inteligente",
+        "desc": "En esta etapa, el conocimiento individual se consolida para crear una verdadera memoria organizacional. La empresa se beneficia de un repositorio único que reúne la experiencia de varios empleados y el conocimiento documental existente.",
+        "item1": "Consolidación del conocimiento proveniente de varios expertos",
+        "item2": "Validación colaborativa y enriquecimiento de contenidos",
+        "item3": "Integración con documentos y sistemas de la empresa",
+        "item4": "Búsqueda avanzada en todo el conocimiento",
+        "item5": "Agente conversacional global capaz de responder desde toda la memoria organizacional"
+      },
+      "step4": {
+        "title": "Fase 4 - Inteligencia organizacional y relevo estratégico",
+        "desc": "La última fase transforma el conocimiento acumulado en inteligencia de negocio. EMA ayuda a los gestores a identificar riesgos, planificar el relevo y desarrollar las capacidades estratégicas de la organización.",
+        "item1": "Identificación de expertos y conocimientos críticos",
+        "item2": "Análisis de riesgos vinculados a la pérdida de experiencia",
+        "item3": "Detección de brechas de conocimiento y necesidades de formación",
+        "item4": "Mapeo de competencias organizacionales",
+        "item5": "Apoyo a la planificación del relevo",
+        "item6": "Paneles de control para decisiones e indicadores estratégicos",
+        "item7": "Generación automatizada de contenidos de formación y transferencia de conocimiento"
+      }
     },
     "footer": {
       "ariaLabel": "Contacto IMX Technologie",

@@ -1,194 +1,177 @@
 {
-  "app": {
-    "title": "EMA | Expert Memory Agent",
-    "description": "Agente de entrevista con IA que ayuda a capturar, estructurar y preservar la experiencia de tus empleados."
-  },
-  "messages": {
-    "warmup": "Iniciando la aplicación...",
-    "backendConnectionTitle": "⚠️ Error de conexión con el servidor",
-    "backendConnectionBody": "No se pudo contactar con el servidor. Actualiza la página o inténtalo de nuevo más tarde."
-  },
-  "header": {
-    "title": "IMX - EMA - DEMO",
-    "menuButton": "Menú",
-    "agentLabel": "Agente",
-    "newProcessButton": "Documentar otro proceso",
-    "newProcessLabel": "Nuevo proceso",
-    "generateProfileButton": "Generar perfil de experiencia",
-    "generateProfileLabel": "Generar perfil"
-  },
-  "intro": {
-    "learnMoreEma": "Más información sobre EMA",
-    "title": "Preserva la memoria de tu empresa",
-    "description": "EMA transforma tu experiencia en conocimiento estructurado y reutilizable mediante una entrevista guiada.",
-    "disclaimer": "Nota: Las conversaciones se registran para generar tu perfil de experiencia. Nada se comparte sin tu aprobación.",
-    "profileAlt": "EMA - Expert Memory Agent",
-    "profileImage": "/static/logos/logo-ema.png"
-  },
-  "components": {
-    "inputArea": {
-      "showInputOnLoad": true,
-      "placeholder": "Responde a EMA o describe lo que quieres compartir...",
-      "sendButton": "Enviar",
-      "voiceButton": "Responder por voz",
-      "disclaimer": "⚠️ Tus respuestas se utilizan para crear un perfil de experiencia validado por ti.",
-      "tooltips": {
-        "voice": "Entrada de voz",
-        "send": "Enviar mensaje",
-        "roleAgent": "Simular un usuario (demo)",
-        "stop": "Detener generación",
-        "autoInterview": "Autoentrevista (debug)"
-      }
-    }
-  },
-  "sidebar": {
-    "title": "IMX - EMA - DEMO",
-    "closeButton": "Cerrar",
-    "emaGuide": "Comprender EMA",
-    "about": "Acerca de la aplicación",
-    "aboutImx": "Acerca de IMX",
-    "contact": "Contáctanos",
-    "privacy": "Política de privacidad",
-    "language": "Idioma",
-    "agent": "Agente"
-  },
-  "nav.plans": "Planes",
-  "plans.title": "Planes",
-  "plans.lead": "Elige la opción que se ajuste a tu nivel de uso.",
-  "plans.perMonth": "/ mes",
-  "plans.trial.name": "Prueba",
-  "plans.trial.price": "0 $",
-  "plans.trial.description": "Ideal para probar la plataforma.",
-  "plans.trial.feature1": "5 entrevistas / sesiones",
-  "plans.trial.feature2": "Compartición de conocimiento ilimitada",
-  "plans.trial.feature3": "Soporte de la comunidad",
-  "plans.trial.feature4": "Período de prueba de 30 días",
-  "plans.pro.name": "Pro",
-  "plans.pro.price": "29 $",
-  "plans.pro.description": "Ideal para equipos en crecimiento.",
-  "plans.pro.feature1": "Entrevistas / sesiones ilimitadas",
-  "plans.pro.feature2": "Compartición de conocimiento ilimitada",
-  "plans.pro.feature3": "Soporte prioritario",
-  "plans.enterprise.name": "Enterprise",
-  "plans.enterprise.price": "Próximamente",
-  "plans.enterprise.description": "Para organizaciones grandes.",
-  "plans.enterprise.feature1": "Roles y permisos personalizados",
-  "plans.enterprise.feature2": "Colaboración en equipo",
-  "plans.enterprise.feature3": "Integraciones de EMA con Slack, Teams y Google Workspace",
-  "cookies": {
-    "title": "Cookies y privacidad",
-    "message": "Este sitio usa cookies esenciales para garantizar su correcto funcionamiento. No se recopilan datos personales con fines publicitarios.",
-    "accept": "Aceptar",
-    "decline": "Rechazar"
-  },
-  "privacy": {
-    "title": "Política de privacidad",
-    "lastUpdate": "31 de diciembre de 2025",
-    "content": [
-      "Tu privacidad es importante para nosotros. Esta política de privacidad explica qué datos se recopilan, cómo se usan y protegen cuando utilizas el asistente IMX Agent.",
-      "",
-      "1. Datos recopilados",
-      " - Información proporcionada: Las preguntas que haces al asistente y la información que ingresas.",
-      " - Datos técnicos: Información del dispositivo, navegador, dirección IP y datos de conexión.",
-      "",
-      "2. Uso de los datos",
-      " - Proporcionar y mejorar el servicio del asistente de IA.",
-      " - Garantizar la seguridad y prevenir abusos.",
-      " - Analizar el uso de la aplicación para mejorar la experiencia del usuario.",
-      "",
-      "3. Compartir datos",
-      " Tus datos nunca se venden a terceros. Solo pueden compartirse en los siguientes casos:",
-      " - Cumplimiento de obligaciones legales.",
-      " - Protección contra fraude o amenazas de seguridad.",
-      "",
-      "4. Seguridad",
-      "Implementamos medidas de seguridad para proteger tus datos contra acceso no autorizado, modificación o divulgación.",
-      "",
-      "5. Tus derechos",
-      " - Acceder a tus datos personales.",
-      " - Solicitar la corrección o eliminación de tus datos.",
-      " - Retirar tu consentimiento en cualquier momento.",
-      "",
-      "6. Contacto",
-      "Para cualquier consulta sobre esta política de privacidad, contáctanos en <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
-    ]
-  },
-  "history": {
-    "loading": "Cargando...",
-    "warmup": "Iniciando la aplicación...",
-    "error": "Lo sentimos, ocurrió un error. Inténtalo de nuevo en unos instantes.",
-    "copy": "Copiar",
-    "share": "Compartir",
-    "copied": "¡Copiado!",
-    "shareNotSupported": "Compartir no es compatible con este navegador.",
-    "comment": "Comentario",
-    "comment_placeholder": "Tu comentario...",
-    "send": "Enviar",
-    "cancel": "Cancelar",
-    "sending": "Enviando...",
-    "comment_success": "¡Comentario agregado!",
-    "comment_error": "Error al agregar el comentario.",
-    "comment_required": "Por favor ingresa un comentario.",
-    "network_error": "Error de red."
-  },
-  "about": {
-    "title": "Acerca de la aplicación",
-    "content": [
-      "Esta aplicación fue desarrollada por IMX Technologie inc., una empresa especializada en el desarrollo de soluciones innovadoras de inteligencia artificial.",
-      "Nuestras herramientas buscan democratizar el acceso a las tecnologías de IA manteniendo altos estándares de calidad, seguridad y privacidad.",
-      "Cada aplicación está diseñada para ofrecer una experiencia de usuario intuitiva y resultados confiables, adaptados a las necesidades específicas de nuestros usuarios.",
-      "Para obtener más información sobre nuestros proyectos y servicios, contáctanos en <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
-    ],
-    "closeButton": "Cerrar"
-  },
-  "footer": {
-    "content": "© IMX Technologie - 2026"
-  },
-  "chat": {
-    "startButton": "Empezar",
-    "startPopup": {
+  "landing": {
+    "title": "EMA | Explicación de la solución",
+    "nav": {
+      "ariaLabel": "Navegación principal",
+      "language": "Idioma",
+      "menuToggleAria": "Abrir menú de secciones",
+      "context": "Contexto",
+      "solution": "Solución",
+      "usage": "Recorrido",
+      "faq": "FAQ",
+      "impact": "Impacto",
+      "contact": "Contacto",
+      "login": "Iniciar sesión",
+      "signup": "Registrarse"
+    },
+    "brand": {
+      "logoAlt": "Logo de EMA"
+    },
+    "hero": {
+      "title": "Transforma el saber hacer de tus equipos<br><span class=\"app-name-highlight\">en conocimiento estructurado.</span>",
+      "lead": "EMA te guía en una entrevista inteligente para capturar, estructurar y compartir tu experiencia.",
+      "primaryButton": "Descubrir EMA",
+      "primaryActionAria": "Descubrir EMA",
+      "secondaryButton": "Ver los pasos",
+      "secondaryActionAria": "Ver el recorrido del usuario",
+      "featuresAria": "Funcionalidades de EMA",
+      "feature1": "Entrevista guiada por IA",
+      "feature2": "Estructuración inteligente",
+      "feature3": "Conocimiento centralizado",
+      "feature4": "Compartir y colaborar"
+    },
+    "startModal": {
       "title": "Bienvenido a EMA",
-      "message": "Esta versión de demostración te permite descubrir las principales funcionalidades y capacidades de EMA.\n\nPara una experiencia representativa de un caso de uso real, utiliza el modo **\"Expert Role-Agent\"** {{ROLE_AGENT_ICON}}.\n\n<a href=\"/index.html?lang=es\">Saber más sobre EMA.</a>",
-      "confirmButton": "Continuar"
+      "message": "Esta demo te permite descubrir las principales funcionalidades de EMA.<br><br><strong>Cómo funciona</strong><br><ol style=\"margin:0.35rem 0 0.6rem 1.15rem;padding:0;\"><li>Define el proceso o la experiencia que quieres compartir.</li><li>EMA te propone un plan de entrevista.</li><li>Luego, EMA te hará una serie de preguntas durante la entrevista.</li><li>Al final de la entrevista, se generará y consolidará una ficha de experiencia.</li><li>Finalmente, podrás hacer preguntas sobre la experiencia producida y EMA intentará responder.</li></ol>En todas las etapas de esta demo, puedes usar ERA, nuestro agente de rol {{ROLE_AGENT_ICON}}, para responder a las preguntas de EMA.",
+      "confirm": "Continuar",
+      "cancel": "Cancelar"
     },
-    "interruptionToast": "Respuesta interrumpida",
-    "axisSwitchNotice": "Siguiente eje: {axis}",
-    "generateProfilePrompt": "Genera la ficha final de experiencia con toda la información recopilada.",
-    "autoInterview": {
-      "startTitle": "Entrevista automática (debug)",
-      "stopTitle": "Detener entrevista automática",
-      "startupPrompt": "Inicia la entrevista y haz tu primera pregunta de introducción.",
-      "keepGoing": "Continúa la entrevista según el plan establecido."
+    "context": {
+      "title": "Contexto de la aplicación",
+      "p1": "En una organización, gran parte de la experiencia sigue siendo implícita: métodos de trabajo, decisiones recurrentes, criterios de juicio, socios clave y excepciones aprendidas con la experiencia.",
+      "p2": "Este conocimiento suele estar disperso en intercambios, hábitos de equipo o memoria individual. Cuando una persona cambia de rol o deja la organización, parte de ese capital se vuelve difícil de recuperar."
     },
-    "actions": {
-      "profile": {
-        "exportTitle": "Exportar perfil final a PDF",
-        "download": "Descargar PDF"
+    "solution": {
+      "title": "Solución propuesta: EMA",
+      "p1": "EMA se comporta como un entrevistador inteligente: avanza pregunta por pregunta, estructura el intercambio alrededor de un plan claro, explora cada eje validado y entrega síntesis intermedias antes de generar una ficha final de experiencia.",
+      "p2": "Su objetivo es transformar la experiencia tácita en conocimiento explícito, sin imponer a la persona usuaria la redacción de una documentación completa."
+    },
+    "usage": {
+      "title": "Cómo funciona"
+    },
+    "how": {
+      "subtitle": "Un recorrido en 4 etapas.",
+      "detailsToggle": "Ver puntos clave",
+      "nodeLabelDiscover": "Descubrimiento",
+      "nodeLabelPlan": "Entrevista",
+      "nodeLabelInterview": "Validación",
+      "nodeLabelSummary": "Compartir",
+      "step1Title": "Paso 1 - Descubrimiento",
+      "step1Intro": "Empieza aclarando el tema y su alcance antes de iniciar la entrevista.",
+      "step1Point1": "Define la experiencia, la trayectoria o el proceso que deseas documentar.",
+      "step1Point2": "EMA te hace algunas preguntas para entender mejor tu intención y el contexto.",
+      "step1Point3": "EMA te propone luego un plan de trabajo que estructura los principales temas por explorar.",
+      "step2Title": "Paso 2 - Entrevista",
+      "step2Intro": "Profundiza en tu experiencia mediante una conversación guiada y natural.",
+      "step2Point1": "Responde a las preguntas sugeridas por EMA o conversa libremente sobre tu tema.",
+      "step2Point2": "EMA toma notas, estructura la información recopilada y analiza los archivos que agregas.",
+      "step2Point3": "Consulta el resumen de la entrevista, corrígelo si es necesario e interroga a EMA para probar su comprensión.",
+      "step3Title": "Paso 3 - Validación",
+      "step3Intro": "Asegúrate de que los conocimientos recopilados reflejen fielmente tu experiencia.",
+      "step3Point1": "Interroga a EMA para verificar su comprensión de tu experiencia.",
+      "step3Point2": "Confirma la información correcta y corrige aquello que deba ajustarse.",
+      "step3Point3": "Completa los elementos faltantes para obtener un conocimiento fiable y listo para compartir.",
+      "step4Title": "Paso 4 - Compartir",
+      "step4Intro": "Haz que tu experiencia esté disponible para las personas que la necesitan.",
+      "step4Point1": "Comparte una experiencia o un grupo de experiencias con las personas que elijas.",
+      "step4Point2": "Las personas autorizadas pueden consultar a EMA para acceder al conocimiento compartido.",
+      "step4Point3": "Sigue enriqueciendo tu memoria documentando y compartiendo nuevas experiencias."
+    },
+    "faq": {
+      "title": "FAQ",
+      "q1": "¿Se puede capturar todo tipo de conocimientos?",
+      "a1": "Sí. EMA usa sus capacidades de análisis y su conocimiento general para proponerte un plan de trabajo adaptado a tu área, a tu experiencia y a lo que quieres documentar.",
+      "q2": "¿Se puede compartir un grupo de conocimientos?",
+      "a2": "Sí. Agrupa tus conocimientos por temas y luego comparte el grupo. La persona que reciba la invitación podrá consultar a EMA sobre todo el conocimiento contenido en ese tema seleccionando el grupo. También podrá seleccionar una experiencia concreta para obtener respuestas más específicas.",
+      "q3": "¿Se pueden adjuntar distintos tipos de documentos?",
+      "a3": "Sí. Ya sean documentos PDF, Word, texto o Excel, EMA puede extraer la información relevante e incorporarla a su base de conocimiento. También puedes adjuntar formularios u otros documentos de referencia para enriquecer la experiencia compartida y ayudar a las personas que la consultan.",
+      "q4": "¿Los documentos y la información están seguros?",
+      "a4": "Sí. La información y los archivos se conservan en una plataforma segura. Tú controlas con quién compartes tus conocimientos y puedes retirar el acceso en cualquier momento. Así mantienes el control sobre tus conocimientos, tus documentos y quién puede acceder a ellos."
+    },
+    "impact": {
+      "title": "Impacto",
+      "p1": "EMA facilita la capitalización del conocimiento, reduce la dependencia de la memoria individual y acelera la producción de contenidos reutilizables para onboarding, formación, mejora continua y transferencia de experiencia.",
+      "p2": "Los equipos pueden comparar mejor las prácticas, detectar zonas grises y preservar aprendizajes surgidos de la experiencia real."
+    },
+    "plans": {
+      "title": "Planes",
+      "lead": "Elige la opción que se ajuste a tu nivel de uso.",
+      "perMonth": "/ mes",
+      "trial": {
+        "name": "Prueba",
+        "price": "0 $",
+        "description": "Ideal para probar la plataforma.",
+        "feature1": "5 entrevistas / sesiones",
+        "feature2": "Compartición de conocimiento ilimitada",
+        "feature3": "Soporte de la comunidad",
+        "feature4": "Período de prueba de 30 días"
       },
-      "plan": {
-        "confirmTitle": "Confirmar plan de trabajo",
-        "adjustTitle": "Solicitar ajuste del plan",
-        "confirmLabel": "El plan me funciona",
-        "adjustLabel": "Quiero ajustar el plan",
-        "confirmMessage": "El plan me funciona.",
-        "adjustMessage": "Quiero ajustar el plan."
+      "pro": {
+        "name": "Pro",
+        "price": "29 $",
+        "description": "Ideal para equipos en crecimiento.",
+        "feature1": "Entrevistas / sesiones ilimitadas",
+        "feature2": "Compartición de conocimiento ilimitada",
+        "feature3": "Soporte prioritario"
       },
-      "recap": {
-        "confirmTitle": "Confirmar resumen",
-        "addTitle": "Agregar detalles",
-        "accurateLabel": "El resumen es correcto",
-        "addLabel": "Quiero agregar algo",
-        "accurateMessage": "El resumen es correcto.",
-        "addMessage": "Quiero agregar algo."
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Próximamente",
+        "description": "Para organizaciones grandes.",
+        "feature1": "Roles y permisos personalizados",
+        "feature2": "Colaboración en equipo",
+        "feature3": "Integraciones de EMA con Slack, Teams y Google Workspace"
       }
     },
-    "profile": {
-      "exportingPdf": "Exportando PDF...",
-      "saving": "Guardando...",
-      "saved": "PDF exportado y perfil guardado",
-      "exportedLocal": "PDF exportado (local)",
-      "filenameBase": "perfil-experiencia",
-      "documentTitle": "Perfil final de experiencia"
+    "phases": {
+      "sectionTitle": "Hoja de ruta de desarrollo",
+      "accordionToggle": "Mostrar detalles de las fases",
+      "featuresLabel": "Funcionalidades clave",
+      "step1": {
+        "title": "Fase 1 - Captura y valorización de la experiencia",
+        "desc": "La primera fase permite a las organizaciones capturar rápidamente el saber hacer de sus empleados mediante entrevistas inteligentes guiadas por IA. La plataforma transforma automáticamente el conocimiento tácito en contenidos estructurados, consultables y reutilizables en toda la organización.",
+        "item1": "Gestión de organizaciones, equipos y usuarios",
+        "item2": "Entrevistas asistidas por inteligencia artificial",
+        "item3": "Reconocimiento de voz y transcripción automática",
+        "item4": "Preguntas adaptativas y validación de la información recopilada",
+        "item5": "Generación automática de fichas de experiencia estructuradas",
+        "item6": "Carga y asociación de documentos de referencia",
+        "item7": "Base de conocimiento centralizada",
+        "item8": "Agente conversacional para consultar la experiencia capturada"
+      },
+      "step2": {
+        "title": "Fase 2 - Captura multimodal del conocimiento",
+        "desc": "Esta fase enriquece la recopilación de experiencia al integrar video, uso compartido de pantalla y análisis de contenido visual. EMA puede entonces documentar no solo lo que los expertos saben, sino también lo que hacen.",
+        "item1": "Grabación en video de entrevistas y demostraciones",
+        "item2": "Captura y uso compartido de pantalla",
+        "item3": "Análisis automatizado de imágenes, documentos y contenido visual",
+        "item4": "Extracción de procedimientos y métodos de trabajo",
+        "item5": "Generación automática de guías ilustradas y documentación operativa"
+      },
+      "step3": {
+        "title": "Fase 3 - Memoria organizacional inteligente",
+        "desc": "En esta etapa, el conocimiento individual se consolida para crear una verdadera memoria organizacional. La empresa se beneficia de un repositorio único que reúne la experiencia de varios empleados y el conocimiento documental existente.",
+        "item1": "Consolidación del conocimiento proveniente de varios expertos",
+        "item2": "Validación colaborativa y enriquecimiento de contenidos",
+        "item3": "Integración con documentos y sistemas de la empresa",
+        "item4": "Búsqueda avanzada en todo el conocimiento",
+        "item5": "Agente conversacional global capaz de responder desde toda la memoria organizacional"
+      },
+      "step4": {
+        "title": "Fase 4 - Inteligencia organizacional y relevo estratégico",
+        "desc": "La última fase transforma el conocimiento acumulado en inteligencia de negocio. EMA ayuda a los gestores a identificar riesgos, planificar el relevo y desarrollar las capacidades estratégicas de la organización.",
+        "item1": "Identificación de expertos y conocimientos críticos",
+        "item2": "Análisis de riesgos vinculados a la pérdida de experiencia",
+        "item3": "Detección de brechas de conocimiento y necesidades de formación",
+        "item4": "Mapeo de competencias organizacionales",
+        "item5": "Apoyo a la planificación del relevo",
+        "item6": "Paneles de control para decisiones e indicadores estratégicos",
+        "item7": "Generación automatizada de contenidos de formación y transferencia de conocimiento"
+      }
+    },
+    "footer": {
+      "ariaLabel": "Contacto IMX Technologie",
+      "contact": "Esta solución es desarrollada por <strong><a href=\"https://imxtech.ca\" target=\"_blank\" rel=\"noopener noreferrer\">IMX Technologie inc.</a></strong>. Para más información, contacta a <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
     }
   }
 }
