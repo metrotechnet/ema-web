@@ -21,12 +21,12 @@
     },
     "hero": {
       "eyebrow": "Expert Memory Agent",
-      "title": "Transformez<br>l'expertise tacite<br><span class=\"app-name-highlight\">en connaissances structurées.</span>",
-      "lead": "EMA vous guide dans une entrevue intelligente pour capturer, structurer et partager ce qui compte vraiment.",
+      "title": "Transformez votre savoir-faire <br><span class=\"app-name-highlight\">en connaissances structurées.</span>",
+      "lead": "EMA vous guide dans une entrevue intelligente pour capturer, structurer et partager votre expertise.",
       "primaryButton": "Découvrir EMA",
       "primaryActionAria": "Découvrir EMA",
-      "secondaryButton": "Comment ça marche",
-      "secondaryActionAria": "Voir le parcours utilisateur",
+      "secondaryButton": "Voir les étapes",
+      "secondaryActionAria": "Voir les étapes du parcours",
       "featuresAria": "Fonctionnalités EMA",
       "feature1": "Entrevue guidée par IA",
       "feature2": "Structuration intelligente",
@@ -54,7 +54,7 @@
       "chip3": "Synthèses contrôlées"
     },
     "usage": {
-      "title": "Comment ça marche",
+      "title": "Un parcours en 4 étapes.",
       "p1": "L'utilisateur suit un parcours en deux volets : d'abord une entrevue guidée pour structurer l'expertise, puis un espace chat pour interroger les connaissances produites et obtenir des réponses ciblées.",
       "startButton": "Commencer l'entrevue",
       "step1": { "title": "1. Démarrer", "desc": "Décrire le besoin ou le processus à documenter." },

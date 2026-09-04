@@ -18,6 +18,8 @@ BASE_DIR = Path(__file__).parent
 
 
 class CustomHandler(http.server.SimpleHTTPRequestHandler):
+    protocol_version = "HTTP/1.1"
+
     def translate_path(self, path: str) -> str:
         """Translate URL path to local filesystem path or template marker."""
         path = unquote(path)
@@ -80,8 +82,13 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
         super().do_GET()
 
 
+class ThreadingTCPServer(socketserver.ThreadingMixIn, socketserver.TCPServer):
+    allow_reuse_address = True
+    daemon_threads = True
+
+
 if __name__ == "__main__":
-    with socketserver.TCPServer(("localhost", PORT), CustomHandler) as httpd:
+    with ThreadingTCPServer(("localhost", PORT), CustomHandler) as httpd:
         print("=" * 60)
         print(f"Frontend server running at: http://localhost:{PORT}")
         print(f"Backend URL: {os.getenv('BACKEND_URL', 'NOT SET')}")

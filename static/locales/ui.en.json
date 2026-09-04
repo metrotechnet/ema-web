@@ -22,8 +22,8 @@
     },
     "hero": {
       "eyebrow": "Expert Memory Agent",
-      "title": "Turn<br>tacit expertise<br><span class=\"app-name-highlight\">into structured knowledge.</span>",
-      "lead": "EMA guides you through an intelligent interview to capture, structure, and share what truly matters.",
+      "title": "Transform your teams' know-how<br><span class=\"app-name-highlight\">into structured knowledge.</span>",
+      "lead": "EMA guides you through an intelligent interview to capture, structure, and share your expertise.",
       "primaryButton": "Discover EMA",
       "primaryActionAria": "Discover EMA",
       "secondaryButton": "How it works",
