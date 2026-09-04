@@ -171,7 +171,7 @@
     },
     "footer": {
       "ariaLabel": "Contact IMX Technologie",
-      "contact": "This solution is developed by <strong><a href=\"https://imxtech.ca\" target=\"_blank\" rel=\"noopener noreferrer\">IMX Technologie inc.</a></strong>. For more information, contact <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
+      "contact": "This solution is designed by <strong><a href=\"https://imxtech.ca\" target=\"_blank\" rel=\"noopener noreferrer\">IMX Technologie inc.</a></strong>. To learn more, contact us at <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
     }
   }
 }
