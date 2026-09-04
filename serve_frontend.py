@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-PORT = int(os.getenv("FRONTEND_PORT", "3000"))
+PORT = int(os.getenv("FRONTEND_PORT", "3001"))
 BASE_DIR = Path(__file__).parent
 
 

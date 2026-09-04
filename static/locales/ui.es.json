@@ -5,7 +5,7 @@
     "nav": {
       "ariaLabel": "Navegación principal",
       "language": "Idioma",
-      "menuToggleAria": "Abrir menu de secciones",
+      "menuToggleAria": "Abrir menú de secciones",
       "context": "Contexto",
       "solution": "Solución",
       "usage": "Recorrido",
@@ -37,7 +37,7 @@
     },
     "startModal": {
       "title": "Bienvenido a EMA",
-      "message": "Esta demo te permite descubrir las principales funcionalidades de EMA.<br><br><strong>Como funciona</strong><br><ol style=\"margin:0.35rem 0 0.6rem 1.15rem;padding:0;\"><li>Define el proceso o la experiencia que quieres compartir.</li><li>EMA te propone un plan de entrevista.</li><li>Luego EMA te hara una serie de preguntas durante la entrevista.</li><li>Al final de la entrevista, se generara y consolidara una ficha de experiencia.</li><li>Finalmente, podras hacer preguntas sobre la experiencia producida y EMA intentara responder.</li></ol>En todas las etapas de esta demo, puedes usar ERA, nuestro agente de rol {{ROLE_AGENT_ICON}}, para responder a las preguntas de EMA.",
+      "message": "Esta demo te permite descubrir las principales funcionalidades de EMA.<br><br><strong>Cómo funciona</strong><br><ol style=\"margin:0.35rem 0 0.6rem 1.15rem;padding:0;\"><li>Define el proceso o la experiencia que quieres compartir.</li><li>EMA te propone un plan de entrevista.</li><li>Luego, EMA te hará una serie de preguntas durante la entrevista.</li><li>Al final de la entrevista, se generará y consolidará una ficha de experiencia.</li><li>Finalmente, podrás hacer preguntas sobre la experiencia producida y EMA intentará responder.</li></ol>En todas las etapas de esta demo, puedes usar ERA, nuestro agente de rol {{ROLE_AGENT_ICON}}, para responder a las preguntas de EMA.",
       "confirm": "Continuar",
       "cancel": "Cancelar"
     },
@@ -47,7 +47,7 @@
       "p2": "Este conocimiento suele estar disperso en intercambios, hábitos de equipo o memoria individual. Cuando una persona cambia de rol o deja la organización, parte de ese capital se vuelve difícil de recuperar."
     },
     "solution": {
-      "title": "Solución propuesta : EMA",
+      "title": "Solución propuesta: EMA",
       "p1": "EMA se comporta como un entrevistador inteligente: avanza pregunta por pregunta, estructura el intercambio alrededor de un plan claro, explora cada eje validado y entrega síntesis intermedias antes de generar una ficha final de experiencia.",
       "p2": "Su objetivo es transformar la experiencia tácita en conocimiento explícito, sin imponer a la persona usuaria la redacción de una documentación completa.",
       "chip1": "Entrevista guiada",
@@ -95,7 +95,7 @@
     "faq": {
       "title": "FAQ",
       "subtitle": "Preguntas frecuentes sobre el uso de EMA.",
-      "q1": "¿Se pueden capturar todo tipo de conocimientos?",
+      "q1": "¿Se puede capturar todo tipo de conocimientos?",
       "a1": "Sí. EMA usa sus capacidades de análisis y su conocimiento general para proponerte un plan de trabajo adaptado a tu área, a tu experiencia y a lo que quieres documentar.",
       "q2": "¿Se puede compartir un grupo de conocimientos?",
       "a2": "Sí. Agrupa tus conocimientos por temas y luego comparte el grupo. La persona que reciba la invitación podrá consultar a EMA sobre todo el conocimiento contenido en ese tema seleccionando el grupo. También podrá seleccionar una experiencia concreta para obtener respuestas más específicas.",

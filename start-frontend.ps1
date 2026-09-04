@@ -21,5 +21,11 @@ if (-not (Test-Path $PYTHON_PATH)) {
 Write-Host "Using Python from virtual environment" -ForegroundColor Green
 Write-Host ""
 
+if (-not $env:FRONTEND_PORT) {
+    $env:FRONTEND_PORT = "3001"
+}
+Write-Host "Frontend port: $env:FRONTEND_PORT" -ForegroundColor DarkGray
+Write-Host ""
+
 # Run the Python frontend server
 & $PYTHON_PATH serve_frontend.py

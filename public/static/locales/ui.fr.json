@@ -69,12 +69,12 @@
   "plans.pro.feature1": "Entretiens / sessions illimités",
   "plans.pro.feature2": "Partage d’expertise illimité",
   "plans.pro.feature3": "Support prioritaire",
-  "plans.enterprise.name": "Enterprise",
+  "plans.enterprise.name": "Entreprise",
   "plans.enterprise.price": "À venir",
   "plans.enterprise.description": "Pour les grandes organisations.",
   "plans.enterprise.feature1": "Rôles et permissions personnalisés",
   "plans.enterprise.feature2": "Collaboration en équipe",
-  "plans.enterprise.feature3": "Intégrations de EMA avec Slack, Teams, Google Workspace",
+  "plans.enterprise.feature3": "Intégrations d'EMA avec Slack, Teams et Google Workspace",
   "cookies": {
     "title": "Cookies et confidentialité",
     "message": "Ce site utilise des cookies essentiels pour assurer son bon fonctionnement. Aucune donnée personnelle n'est collectée à des fins publicitaires.",
@@ -88,7 +88,7 @@
       "Votre vie privée est importante pour nous. Cette politique de confidentialité explique quelles données sont collectées, comment elles sont utilisées et protégées lorsque vous utilisez l'assistant IMX Agent.",
       "",
       "1. Données collectées",
-      " - Informations fournies : Les questions que vous posez a l'assistant et les informations que vous saisissez.",
+      " - Informations fournies : Les questions que vous posez à l'assistant et les informations que vous saisissez.",
       " - Données techniques : Informations sur l'appareil, le navigateur, l'adresse IP et les données de connexion.",
       "",
       "2. Utilisation des données",
@@ -102,7 +102,7 @@
       " - Protection contre la fraude ou les menaces à la sécurité.",
       "",
       "4. Sécurité",
-      "Nous mettons en oeuvre des mesures de sécurité pour protéger vos données contre l'accès non autorisé, la modification ou la divulgation.",
+      "Nous mettons en œuvre des mesures de sécurité pour protéger vos données contre l'accès non autorisé, la modification ou la divulgation.",
       "",
       "5. Vos droits",
       " - Accéder à vos données personnelles.",
@@ -163,7 +163,7 @@
     "actions": {
       "profile": {
         "exportTitle": "Exporter la fiche finale en PDF",
-        "download": "Telecharger le PDF"
+        "download": "Télécharger le PDF"
       },
       "plan": {
         "confirmTitle": "Confirmer le plan de travail",

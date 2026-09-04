@@ -36,7 +36,7 @@
     },
     "startModal": {
       "title": "Bienvenue chez EMA",
-      "message": "Cette version de démonstration vous permet de découvrir les principales fonctionnalités d'EMA.<br><br><strong>Comment ça marche</strong><br><ol style=\"margin:0.35rem 0 0.6rem 1.15rem;padding:0;\"><li>Définir votre processus ou l'expérience que vous voulez partager.</li><li>EMA va vous proposer un plan d'entrevue.</li><li>Par la suite, EMA vous posera une série de questions durant l'entrevue.</li><li>A la fin de l'entrevue, une fiche d'expertise sera produite et consolidée.</li><li>Finalement, vous pourrez poser vos questions sur l'expertise produite et EMA tentera de vous répondre.</li></ol>Dans toutes les étapes de cette démo, vous pouvez utiliser ERA, notre agent de rôle {{ROLE_AGENT_ICON}}, afin de répondre aux questions d'EMA.",
+      "message": "Cette version de démonstration vous permet de découvrir les principales fonctionnalités d'EMA.<br><br><strong>Comment ça marche</strong><br><ol style=\"margin:0.35rem 0 0.6rem 1.15rem;padding:0;\"><li>Définissez votre processus ou l'expertise que vous voulez partager.</li><li>EMA vous proposera un plan d'entrevue.</li><li>Par la suite, EMA vous posera une série de questions pendant l'entrevue.</li><li>À la fin de l'entrevue, une fiche d'expertise sera produite et consolidée.</li><li>Finalement, vous pourrez poser des questions sur l'expertise produite, et EMA tentera d'y répondre.</li></ol>À toutes les étapes de cette démo, vous pouvez utiliser ERA, notre agent de rôle {{ROLE_AGENT_ICON}}, afin de répondre aux questions d'EMA.",
       "confirm": "Commencer",
       "cancel": "Annuler"
     },
@@ -130,12 +130,12 @@
         "feature3": "Support prioritaire"
       },
       "enterprise": {
-        "name": "Enterprise",
+        "name": "Entreprise",
         "price": "À venir",
         "description": "Pour les grandes organisations.",
         "feature1": "Rôles et permissions personnalisés",
         "feature2": "Collaboration en équipe",
-        "feature3": "Intégrations de EMA avec Slack, Teams, Google Workspace"
+        "feature3": "Intégrations d'EMA avec Slack, Teams et Google Workspace"
       }
     },
     "phases": {
@@ -149,7 +149,7 @@
     },
     "footer": {
       "ariaLabel": "Contact IMX Technologie",
-      "contact": "Cette solution est développée par <strong><a href=\"https://imxtech.ca\" target=\"_blank\" rel=\"noopener noreferrer\">IMX Technologie inc.</a></strong>. Pour plus d'information, contactez <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
+      "contact": "Cette solution est développée par <strong><a href=\"https://imxtech.ca\" target=\"_blank\" rel=\"noopener noreferrer\">IMX Technologie inc.</a></strong>. Pour plus d'informations, contactez <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
     }
   }
 }

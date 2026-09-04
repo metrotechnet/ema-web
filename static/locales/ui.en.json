@@ -47,7 +47,7 @@
       "p2": "This knowledge is often scattered across conversations, team habits, or individual memory. When someone changes role or leaves the organization, part of this capital becomes hard to recover."
     },
     "solution": {
-      "title": "Provided solution : EMA",
+      "title": "Provided solution: EMA",
       "p1": "EMA behaves like an intelligent interviewer: it moves forward one question at a time, structures the conversation around a clear plan, explores each validated axis, and delivers interim syntheses before producing a final expertise profile.",
       "p2": "Its goal is to turn tacit expertise into explicit knowledge, without forcing the user to write complete documentation.",
       "chip1": "Guided interview",
@@ -98,7 +98,7 @@
       "q1": "Can we capture all types of expertise?",
       "a1": "Yes. EMA uses its analysis capabilities and general knowledge to suggest a work plan adapted to your domain, your expertise, and what you want to document.",
       "q2": "Can we share a group of expertise items?",
-      "a2": "Yes. Group your expertise by theme and then share the group. The person receiving the invitation can question EMA on the full set of knowledge in that theme by selecting the group. They can also select a specific expertise for more targeted answers.",
+      "a2": "Yes. Group your expertise by theme and then share the group. The person receiving the invitation can ask EMA questions about the full set of knowledge in that theme by selecting the group. They can also select a specific expertise for more targeted answers.",
       "q3": "Can we attach different kinds of documents?",
       "a3": "Yes. Whether they are PDF, Word, text, or Excel documents, EMA can extract relevant information and add it to its knowledge base. You can also attach forms or other reference documents to enrich the shared expertise and help the people who consult it.",
       "q4": "Are the documents and information secure?",
