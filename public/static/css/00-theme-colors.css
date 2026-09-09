@@ -1,0 +1,30 @@
+/* Module: 00-theme-colors.css */
+/* Scope: Centralized color tokens used across the UI. */
+
+:root {
+    /* EMA reference palette */
+    --palette-ema-primary: #4f46e5;
+    --palette-ema-primary-dark: #312e81;
+    --palette-ema-primary-light: #a5b4fc;
+    --palette-ema-primary-hover: #4338ca;
+
+    --palette-ema-dark: #312e81;
+    --palette-ema-gray: #64748b;
+    --palette-ema-light: #e0e7ff;
+    --palette-ema-white: #ffffff;
+    --palette-ema-shadow: var(--theme-primary-18);
+
+    --palette-ema-text-primary: #0f172a;
+    --palette-ema-text-secondary: #64748b;
+    --palette-ema-border: #c2cad6;
+    --palette-ema-text-invert: #f8fafc;
+
+    --theme-success: #16a34a;
+    --theme-success-soft: color-mix(in srgb, var(--theme-success) 34%, transparent);
+    --theme-warning: #ffb347;
+    --theme-warning-soft: color-mix(in srgb, var(--theme-warning) 20%, transparent);
+    --theme-danger: #dc2626;
+    --theme-danger-soft: color-mix(in srgb, var(--theme-danger) 50%, transparent);
+
+   
+}

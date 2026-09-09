@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EMA | Expert Memory Agent</title>
-    <meta name="description" content="EMA (Expert Memory Agent) aide les organisations à capturer leur expertise et à la transformer en connaissances structurées et réutilisables grâce à une entrevue guidée par IA.">
+    <meta name="description" content="EMA (Expert Memory Agent) aide les organisations à capturer leur expertise et à la transformer en connaissances structurées et réutilisables via une entrevue guidée par IA.">
     <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
-    <link rel="canonical" href="https://imx-ema.web.app/index.html?lang=fr">
+    <link rel="canonical" href="https://imx-ema.web.app/index.html">
     <link rel="alternate" hreflang="fr" href="https://imx-ema.web.app/index.html?lang=fr">
     <link rel="alternate" hreflang="en" href="https://imx-ema.web.app/index.html?lang=en">
     <link rel="alternate" hreflang="es" href="https://imx-ema.web.app/index.html?lang=es">
@@ -14,25 +14,25 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="EMA | Expert Memory Agent">
     <meta property="og:description" content="Capturez et structurez l'expertise terrain avec une entrevue IA guidée.">
-    <meta property="og:url" content="https://imx-ema.web.app/index.html?lang=fr">
-    <meta property="og:locale" content="fr_CA">
-    <meta property="og:locale:alternate" content="en_CA">
-    <meta property="og:locale:alternate" content="es_ES">
+    <meta property="og:url" content="https://imx-ema.web.app/index.html">
     <meta property="og:site_name" content="EMA">
     <meta property="og:image" content="https://imx-ema.web.app/static/logos/logo-ema.png">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="EMA | Expert Memory Agent">
     <meta name="twitter:description" content="Assistant IA d'entrevue pour capitaliser l'expertise organisationnelle.">
     <meta name="twitter:image" content="https://imx-ema.web.app/static/logos/logo-ema.png">
+    <link rel="alternate" type="text/markdown" href="https://imx-ema.web.app/llms.txt" title="LLMs profile">
+
     <link rel="icon" type="image/png" sizes="16x16" href="static/logos/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="static/logos/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="48x48" href="static/logos/favicon-48x48.png">
     <link rel="apple-touch-icon" sizes="180x180" href="static/logos/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="192x192" href="static/logos/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="512x512" href="static/logos/android-chrome-512x512.png">
-    <link rel="alternate" type="text/markdown" href="https://imx-ema.web.app/llms.txt" title="LLMs profile">
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="/static/css/00-theme-colors.css">
     <link rel="stylesheet" href="/static/css/ema-pages.css">
     <script type="application/ld+json">
         {
@@ -56,7 +56,7 @@
                     "applicationCategory": "BusinessApplication",
                     "operatingSystem": "Web",
                     "url": "https://imx-ema.web.app/index.html",
-                    "description": "Assistant IA qui guide des entrevues pour transformer l'expertise implicite en connaissances structurees.",
+                    "description": "Assistant IA qui guide des entrevues pour transformer l'expertise implicite en connaissances structurées.",
                     "publisher": {
                         "@type": "Organization",
                         "name": "IMX Technologie inc.",
@@ -77,8 +77,9 @@
             <nav class="slim-menu" id="slim-menu" aria-label="Sections">
                 <a href="#context-section" data-i18n="nav.context">Contexte</a>
                 <a href="#solution-section" data-i18n="nav.solution">Solution</a>
-                <a href="#usage-section" data-i18n="nav.usage">Parcours utilisateur</a>
                 <a href="#impact-section" data-i18n="nav.impact">Retombées</a>
+                <a href="#usage-section" data-i18n="nav.usage">Parcours utilisateur</a>
+                <a href="#faq-section" data-i18n="nav.faq">FAQ</a>
                 <a href="#plans-section" data-i18n="nav.plans">Plans</a>
                 <a href="#contact-section" data-i18n="nav.contact">Contact</a>
                 <div class="slim-language">
@@ -90,25 +91,55 @@
                     </select>
                 </div>
                 <div class="slim-auth">
-                    <a class="slim-auth-btn slim-auth-btn-secondary" href="https://imx-ema-demo.web.app/login.html" data-i18n="nav.login">Connexion</a>
-                    <a class="slim-auth-btn slim-auth-btn-primary" href="https://imx-ema-demo.web.app/signup.html" data-i18n="nav.signup">Inscription</a>
+                    <a class="slim-auth-btn slim-auth-btn-secondary" href="https://imx-ema-main.web.app/login.html" target="_blank" rel="noopener noreferrer" data-i18n="nav.login">Connexion</a>
+                    <a class="slim-auth-btn slim-auth-btn-primary" href="https://imx-ema-main.web.app/signup.html" data-i18n="nav.signup">Inscription</a>
                 </div>
             </nav>
         </header>
 
-        <section class="hero">
-            <div class="hero-copy loading-style">
-                <div class="hero-brand">
-                    <img src="/static/logos/logo-ema.png" alt="Logo EMA" data-i18n-alt="brand.logoAlt">
-                </div>
-                <h1 class="app-name" data-i18n="hero.title">Préservez la mémoire de votre entreprise</h1>
-                <p class="lead" data-i18n="hero.lead">EMA transforme votre expertise en connaissances structurées et réutilisables grâce à une entrevue guidée.</p>
-                <div class="hero-actions">
+        <section class="hero" aria-label="Présentation d'EMA">
+            <div class="hero-visual" aria-label="Aperçu de l'application EMA">
+                <div class="hero-demo-shell">
+                    <img src="/static/images/background-hero-and-interface.png" alt="Aperçu d'EMA dans une interface d'entrevue assistée par IA" />
 
-                    <a class="cta-button" href="https://imx-ema-demo.web.app/signup.html" data-i18n-aria-label="nav.signup">
-                        <i class="bi bi-play-circle"></i>
-                        <span data-i18n="hero.startButton">S'inscrire</span>
-                    </a>
+                    <div class="hero-overlay-content">
+                        <div class="hero-brand">
+                            <img src="/static/logos/logo-ema-transparent.png" alt="Logo EMA" data-i18n-alt="brand.logoAlt">
+                        </div>
+
+                        <h1 class="app-name" data-i18n="hero.title">Transformez<br>l'expertise tacite<br><span class="app-name-highlight">en connaissances structurées.</span></h1>
+                        <p class="lead" data-i18n="hero.lead">EMA vous guide dans une entrevue intelligente pour capturer, structurer et partager ce qui compte vraiment.</p>
+
+                        <div class="hero-actions">
+                            <a class="cta-button" href="https://imx-ema-main.web.app/login.html" target="_blank" rel="noopener noreferrer" data-i18n-aria-label="hero.primaryActionAria">
+                                <i class="bi bi-stars"></i>
+                                <span data-i18n="hero.primaryButton">Découvrir EMA</span>
+                            </a>
+                            <a class="cta-button cta-button-secondary" href="#usage-section" data-i18n-aria-label="hero.secondaryActionAria">
+                                <i class="bi bi-list-ol"></i>
+                                <span data-i18n="hero.secondaryButton">Voir les étapes</span>
+                            </a>
+                        </div>
+
+                        <div class="hero-features" aria-label="Fonctionnalités EMA" data-i18n-aria-label="hero.featuresAria">
+                            <div class="feature-item">
+                                <span class="feature-icon"><i class="bi bi-chat-dots"></i></span>
+                                <span data-i18n="hero.feature1">Entrevue guidée par IA</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon"><i class="bi bi-kanban"></i></span>
+                                <span data-i18n="hero.feature2">Structuration intelligente</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon"><i class="bi bi-people"></i></span>
+                                <span data-i18n="hero.feature3">Connaissances centralisées</span>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-icon"><i class="bi bi-share"></i></span>
+                                <span data-i18n="hero.feature4">Partage et collaboration</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -128,26 +159,115 @@
                 <p data-i18n="solution.p2">Son objectif est de transformer l'expertise tacite en connaissances explicites, sans imposer à l'utilisateur la rédaction d'une documentation complète.</p>
 
             </article>
+
             <article class="section full" id="impact-section">
                 <div class="section-icon"><i class="bi bi-graph-up-arrow"></i></div>
                 <h2 data-i18n="impact.title">Retombées</h2>
                 <p data-i18n="impact.p1">EMA facilite la capitalisation des connaissances, réduit la dépendance à la mémoire individuelle et accélère la production de contenus réutilisables pour l'onboarding, la formation, l'amélioration continue et le transfert d'expertise.</p>
                 <p data-i18n="impact.p2">Les équipes peuvent mieux comparer les pratiques, repérer les zones grises et préserver les apprentissages issus de l'expérience réelle.</p>
             </article>
-
+            
             <article class="section full" id="usage-section">
                 <div class="section-icon"><i class="bi bi-play-circle"></i></div>
-                <h2 data-i18n="usage.title">Parcours utilisateur</h2>
-                <p data-i18n="usage.p1">L'utilisateur suit un parcours en deux volets : d'abord une entrevue guidée pour structurer l'expertise, puis un espace chat pour interroger les connaissances produites et obtenir des réponses ciblées.</p>
-                <div class="flow">
-                    <div class="flow-step"><strong data-i18n="usage.step1.title">1. Démarrer</strong><span data-i18n="usage.step1.desc">Décrire le besoin ou le processus à documenter.</span></div>
-                    <div class="flow-step"><strong data-i18n="usage.step2.title">2. Valider le plan</strong><span data-i18n="usage.step2.desc">Confirmer ou ajuster les axes de l'entrevue.</span></div>
-                    <div class="flow-step"><strong data-i18n="usage.step3.title">3. Répondre</strong><span data-i18n="usage.step3.desc">Partager les pratiques, critères, outils et cas vécus.</span></div>
-                    <div class="flow-step"><strong data-i18n="usage.step4.title">4. Confirmer</strong><span data-i18n="usage.step4.desc">Valider les récapitulatifs et la fiche finale.</span></div>
-                    <div class="flow-step"><strong data-i18n="usage.step5.title">5. Poser vos questions</strong><span data-i18n="usage.step5.desc">Poser des questions sur l'expertise consolidée et obtenir des réponses contextuelles.</span></div>
+                <div class="journey-section-header">
+                    <h2 data-i18n="usage.title">Un parcours en 4 étapes</h2>
+                </div>
+
+                <div class="journey-timeline" aria-label="Parcours utilisateur en quatre étapes">
+                    <div class="journey-node journey-node-discover">
+                        <div class="journey-node-summary">
+                            <span class="journey-node-icon"><i class="bi bi-search"></i></span>
+                            <span class="journey-node-label" data-i18n="how.nodeLabelDiscover">Découverte</span>
+                        </div>
+                        <div class="journey-node-panel">
+                            <strong data-i18n="how.step1Title">Étape 1 — Découverte</strong>
+                            <p class="journey-node-intro" data-i18n="how.step1Intro">Commencez par clarifier le sujet et son périmètre avant de lancer l'entrevue.</p>
+                            <ul>
+                                <li data-i18n="how.step1Point1">Définissez l'expertise, l'expérience ou le processus que vous souhaitez documenter.</li>
+                                <li data-i18n="how.step1Point2">EMA vous pose quelques questions afin de bien comprendre votre intention et le contexte.</li>
+                                <li data-i18n="how.step1Point3">EMA vous propose ensuite un plan de travail structurant les principaux sujets à explorer.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="journey-node journey-node-interview">
+                        <div class="journey-node-summary">
+                            <span class="journey-node-icon"><i class="bi bi-chat-dots"></i></span>
+                            <span class="journey-node-label" data-i18n="how.nodeLabelPlan">Entrevue</span>
+                        </div>
+                        <div class="journey-node-panel">
+                            <strong data-i18n="how.step2Title">Étape 2 — Entrevue</strong>
+                            <p class="journey-node-intro" data-i18n="how.step2Intro">Approfondissez votre expertise à travers une conversation guidée et naturelle.</p>
+                            <ul>
+                                <li data-i18n="how.step2Point1">Répondez aux questions suggérées par EMA ou discutez librement de votre sujet.</li>
+                                <li data-i18n="how.step2Point2">EMA prend des notes, structure les informations recueillies et analyse les fichiers que vous ajoutez.</li>
+                                <li data-i18n="how.step2Point3">Consultez le résumé de l'entrevue, corrigez-le au besoin et interrogez EMA pour tester sa compréhension.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="journey-node journey-node-validate">
+                        <div class="journey-node-summary">
+                            <span class="journey-node-icon"><i class="bi bi-check2-circle"></i></span>
+                            <span class="journey-node-label" data-i18n="how.nodeLabelInterview">Validation</span>
+                        </div>
+                        <div class="journey-node-panel">
+                            <strong data-i18n="how.step3Title">Étape 3 — Validation</strong>
+                            <p class="journey-node-intro" data-i18n="how.step3Intro">Assurez-vous que les connaissances recueillies reflètent fidèlement votre expertise.</p>
+                            <ul>
+                                <li data-i18n="how.step3Point1">Interrogez EMA pour vérifier sa compréhension de votre expertise.</li>
+                                <li data-i18n="how.step3Point2">Confirmez les informations justes et corrigez celles qui doivent être ajustées.</li>
+                                <li data-i18n="how.step3Point3">Complétez les éléments manquants afin d'obtenir une connaissance fiable et prête à être partagée.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="journey-node journey-node-share">
+                        <div class="journey-node-summary">
+                            <span class="journey-node-icon"><i class="bi bi-share"></i></span>
+                            <span class="journey-node-label" data-i18n="how.nodeLabelSummary">Partage</span>
+                        </div>
+                        <div class="journey-node-panel">
+                            <strong data-i18n="how.step4Title">Étape 4 — Partage</strong>
+                            <p class="journey-node-intro" data-i18n="how.step4Intro">Rendez votre expertise accessible aux personnes qui en ont besoin.</p>
+                            <ul>
+                                <li data-i18n="how.step4Point1">Partagez une expertise ou un groupe d'expertises avec les personnes de votre choix.</li>
+                                <li data-i18n="how.step4Point2">Les personnes autorisées peuvent interroger EMA pour accéder aux connaissances partagées.</li>
+                                <li data-i18n="how.step4Point3">Continuez à enrichir votre mémoire en documentant et en partageant de nouvelles expertises.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </article>
 
+            <article class="section full faq-section" id="faq-section">
+                <div class="section-icon"><i class="bi bi-question-circle"></i></div>
+                <div class="faq-section-header">
+                    <h2 data-i18n="faq.title">FAQ</h2>
+                </div>
+
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary class="faq-question" data-i18n="faq.q1">Est-ce qu'on peut capturer tous les types d'expertise?</summary>
+                        <div class="faq-answer" data-i18n="faq.a1">Oui. EMA utilise ses capacités d'analyse et ses connaissances générales pour vous proposer un plan de travail adapté à votre domaine, à votre expertise et à ce que vous souhaitez documenter.</div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary class="faq-question" data-i18n="faq.q2">Peut-on partager un ensemble d'expertises?</summary>
+                        <div class="faq-answer" data-i18n="faq.a2">Oui. Regroupez vos expertises par thèmes et partagez ensuite le groupe. La personne qui reçoit l'invitation pourra interroger EMA sur l'ensemble des connaissances contenues dans ce thème en sélectionnant le groupe. Elle pourra également sélectionner une expertise précise pour obtenir des réponses plus ciblées.</div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary class="faq-question" data-i18n="faq.q3">Peut-on joindre différents types de documents?</summary>
+                        <div class="faq-answer" data-i18n="faq.a3">Oui. Qu'il s'agisse de documents PDF, Word, texte ou Excel, EMA peut en extraire les informations pertinentes et les intégrer à sa base de connaissances. Vous pouvez également joindre des formulaires ou d'autres documents de référence afin d'enrichir l'expertise partagée et d'aider les personnes qui la consultent.</div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary class="faq-question" data-i18n="faq.q4">Est-ce que les documents et les informations sont sécurisés?</summary>
+                        <div class="faq-answer" data-i18n="faq.a4">Oui. Les informations et les fichiers sont conservés sur une plateforme sécurisée. Vous contrôlez les personnes avec qui vous partagez vos connaissances et pouvez retirer un accès en tout temps. Vous gardez ainsi le contrôle sur vos expertises, vos documents et les personnes qui peuvent y accéder.</div>
+                    </details>
+                </div>
+            </article>
 
 
             <article class="section full plans-section" id="plans-section">
@@ -198,7 +318,7 @@
                         <ul class="plan-card-list">
                             <li><i class="bi bi-check-circle"></i> <span data-i18n="plans.enterprise.feature1">Rôles et permissions personnalisés</span></li>
                             <li><i class="bi bi-check-circle"></i> <span data-i18n="plans.enterprise.feature2">Collaboration en équipe</span></li>
-                            <li><i class="bi bi-check-circle"></i> <span data-i18n="plans.enterprise.feature3">Intégrations d'EMA avec Slack, Teams et Google Workspace</span></li>
+                            <li><i class="bi bi-check-circle"></i> <span data-i18n="plans.enterprise.feature3">Intégrations de EMA avec Slack, Teams, Google Workspace</span></li>
                         </ul>
                     </article>
                 </div>
@@ -273,4 +393,3 @@
     <script src="/static/js/web-translations.js"></script>
 </body>
 </html>
-
