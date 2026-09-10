@@ -10,6 +10,7 @@
       "usage": "Journey",
       "faq": "FAQ",
       "impact": "Impact",
+      "plans": "Plans",
       "contact": "Contact",
       "login": "Login",
       "signup": "Sign up"
@@ -95,7 +96,7 @@
     },
     "plans": {
       "title": "Plans",
-      "lead": "Choose the plan that matches your level of use.",
+      "lead": "Compare the available subscription tiers.",
       "perMonth": "/ month",
       "trial": {
         "name": "Trial",

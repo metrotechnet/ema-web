@@ -10,6 +10,7 @@
       "usage": "Recorrido",
       "faq": "FAQ",
       "impact": "Impacto",
+      "plans": "Planes",
       "contact": "Contacto",
       "login": "Iniciar sesión",
       "signup": "Registrarse"
@@ -95,7 +96,7 @@
     },
     "plans": {
       "title": "Planes",
-      "lead": "Elige la opción que se ajuste a tu nivel de uso.",
+      "lead": "Compara los niveles de suscripción disponibles.",
       "perMonth": "/ mes",
       "trial": {
         "name": "Prueba",
@@ -117,7 +118,7 @@
       },
       "enterprise": {
         "name": "Enterprise",
-        "price": "Próximamente",
+        "price": "Contáctanos",
         "description": "Para organizaciones grandes.",
         "feature1": "Roles y permisos personalizados",
         "feature2": "Colaboración en equipo",

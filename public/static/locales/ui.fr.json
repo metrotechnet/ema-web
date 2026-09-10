@@ -10,6 +10,7 @@
       "usage": "Parcours",
       "faq": "FAQ",
       "impact": "Retombées",
+      "plans": "Forfaits",
       "contact": "Contact",
       "login": "Connexion",
       "signup": "Inscription"
@@ -94,8 +95,8 @@
       "p2": "Les équipes peuvent mieux comparer les pratiques, repérer les zones grises et préserver les apprentissages tirés de l'expérience réelle."
     },
     "plans": {
-      "title": "Plans",
-      "lead": "Choisissez la formule qui correspond à votre niveau d'usage.",
+      "title": "Forfaits",
+      "lead": "Comparez les formules disponibles.",
       "perMonth": "/ mois",
       "trial": {
         "name": "Essai",
@@ -117,7 +118,7 @@
       },
       "enterprise": {
         "name": "Entreprise",
-        "price": "À venir",
+        "price": "Contactez-nous",
         "description": "Pour les grandes organisations.",
         "feature1": "Rôles et permissions personnalisés",
         "feature2": "Collaboration en équipe",
