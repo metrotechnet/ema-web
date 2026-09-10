@@ -108,6 +108,29 @@
         "feature4": "Total file storage: 10 MB"
       },
       "pro": {
+    "emailChangeConfirm": {
+      "pageTitle": "Confirm email change | EMA",
+      "badge": "Email change",
+      "heading": "Confirm your email change",
+      "subtitle": "Confirm your new email address and choose a password for your EMA account.",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "name@company.com",
+      "passwordLabel": "New password",
+      "passwordPlaceholder": "At least 6 characters",
+      "confirmPasswordLabel": "Confirm new password",
+      "confirmPasswordPlaceholder": "Re-enter your new password",
+      "submit": "Confirm email change",
+      "backToSignIn": "Back to EMA",
+      "errors": {
+        "missingCode": "This confirmation link is missing the required token.",
+        "invalid": "This confirmation link is invalid or has expired.",
+        "passwordMismatch": "The passwords do not match.",
+        "weakPassword": "Please choose a stronger password.",
+        "sameAsPreviousPassword": "You cannot reuse your previous password.",
+        "generic": "Unable to confirm your email change.",
+        "success": "Your email address has been updated successfully."
+      }
+    },
         "name": "Pro",
         "price": "$29",
         "description": "Ideal for growing teams.",

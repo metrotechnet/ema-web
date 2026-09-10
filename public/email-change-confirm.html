@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title data-i18n="authPage.emailChangeConfirm.pageTitle">EMA | Confirm email change</title>
+  <link rel="icon" type="image/png" sizes="16x16" href="static/logos/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/logos/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="static/logos/favicon-48x48.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="static/logos/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="static/logos/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="static/logos/android-chrome-512x512.png">
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="stylesheet" href="/static/css/parts/17-signup-decision.css">
+  <link rel="stylesheet" href="/static/css/parts/18-reset-password.css">
+  <script>
+    (function () {
+      const preferred = new URLSearchParams(window.location.search).get('lang') || localStorage.getItem('preferredLanguage') || (navigator.language || 'en');
+      const lang = ['en', 'fr', 'es'].includes(preferred.split('-')[0].toLowerCase()) ? preferred.split('-')[0].toLowerCase() : 'en';
+      document.documentElement.lang = lang;
+      document.documentElement.classList.add('lang-loading');
+    })();
+  </script>
+</head>
+<body class="auth-page">
+  <main class="auth-card reset-card">
+    <img class="auth-logo" src="/static/logos/logo-ema.png" alt="EMA logo" data-i18n-alt="intro.profileAlt">
+    <span class="badge reset-badge" data-i18n="authPage.emailChangeConfirm.badge">Email change</span>
+    <h1 data-i18n="authPage.emailChangeConfirm.heading">Confirm your email change</h1>
+    <p class="auth-subtitle" data-i18n="authPage.emailChangeConfirm.subtitle">Confirm your new email address and choose a password for your EMA account.</p>
+
+    <div class="reset-form-panel">
+      <form id="emailChangeConfirmForm" class="reset-form">
+        <label>
+          <span data-i18n="authPage.emailChangeConfirm.emailLabel">Email address</span>
+          <input id="email" type="email" autocomplete="email" readonly aria-readonly="true" data-i18n-placeholder="authPage.emailChangeConfirm.emailPlaceholder" placeholder="name@company.com" required>
+        </label>
+        <label>
+          <span data-i18n="authPage.emailChangeConfirm.passwordLabel">New password</span>
+          <span class="reset-password-field">
+            <input id="password" type="password" autocomplete="new-password" minlength="6" data-i18n-placeholder="authPage.emailChangeConfirm.passwordPlaceholder" placeholder="At least 6 characters" required>
+            <button class="reset-password-toggle" type="button" data-target="password" aria-label="Show password" aria-pressed="false" tabindex="-1">
+              <svg class="reset-password-icon reset-password-icon-show" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M2 12s3.5-6.5 10-6.5S22 12 22 12s-3.5 6.5-10 6.5S2 12 2 12Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="12" cy="12" r="3.5" fill="none" stroke="currentColor" stroke-width="1.8"/>
+              </svg>
+              <svg class="reset-password-icon reset-password-icon-hide" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M3 3l18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M10.6 10.6A3 3 0 0 0 12 15a3.1 3.1 0 0 0 1.4-.3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M9.2 4.7A10.8 10.8 0 0 1 12 4.5C18.5 4.5 22 12 22 12a19.2 19.2 0 0 1-4 5.3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M6.2 7.4C3.9 9.1 2 12 2 12s3.5 6.5 10 6.5a12.7 12.7 0 0 0 4.8-1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </span>
+        </label>
+        <label>
+          <span data-i18n="authPage.emailChangeConfirm.confirmPasswordLabel">Confirm new password</span>
+          <span class="reset-password-field">
+            <input id="confirmPassword" type="password" autocomplete="new-password" minlength="6" data-i18n-placeholder="authPage.emailChangeConfirm.confirmPasswordPlaceholder" placeholder="Re-enter your new password" required>
+            <button class="reset-password-toggle" type="button" data-target="confirmPassword" aria-label="Show password" aria-pressed="false" tabindex="-1">
+              <svg class="reset-password-icon reset-password-icon-show" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M2 12s3.5-6.5 10-6.5S22 12 22 12s-3.5 6.5-10 6.5S2 12 2 12Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="12" cy="12" r="3.5" fill="none" stroke="currentColor" stroke-width="1.8"/>
+              </svg>
+              <svg class="reset-password-icon reset-password-icon-hide" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M3 3l18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+                <path d="M10.6 10.6A3 3 0 0 0 12 15a3.1 3.1 0 0 0 1.4-.3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M9.2 4.7A10.8 10.8 0 0 1 12 4.5C18.5 4.5 22 12 22 12a19.2 19.2 0 0 1-4 5.3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M6.2 7.4C3.9 9.1 2 12 2 12s3.5 6.5 10 6.5a12.7 12.7 0 0 0 4.8-1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </button>
+          </span>
+        </label>
+        <button class="primary-btn reset-submit" type="submit" data-i18n="authPage.emailChangeConfirm.submit">Confirm email change</button>
+      </form>
+    </div>
+
+    <p id="message" class="auth-message reset-message" aria-live="polite"></p>
+    <div class="reset-actions">
+      <a class="btn" href="/login" data-i18n="authPage.emailChangeConfirm.backToSignIn">Back to EMA</a>
+    </div>
+  </main>
+
+  <script>
+    window.EMA_AUTH_CONFIG = {
+      apiKey: '{{FIREBASE_API_KEY}}',
+      authDomain: '{{FIREBASE_AUTH_DOMAIN}}',
+      projectId: '{{FIREBASE_PROJECT_ID}}',
+      storageBucket: '{{FIREBASE_STORAGE_BUCKET}}',
+      messagingSenderId: '{{FIREBASE_MESSAGING_SENDER_ID}}',
+      appId: '{{FIREBASE_APP_ID}}',
+      measurementId: '{{FIREBASE_MEASUREMENT_ID}}',
+    };
+    window.FIREBASE_API_KEY = '{{FIREBASE_API_KEY}}';
+    window.FIREBASE_AUTH_DOMAIN = '{{FIREBASE_AUTH_DOMAIN}}';
+    window.FIREBASE_PROJECT_ID = '{{FIREBASE_PROJECT_ID}}';
+    window.FIREBASE_STORAGE_BUCKET = '{{FIREBASE_STORAGE_BUCKET}}';
+    window.FIREBASE_MESSAGING_SENDER_ID = '{{FIREBASE_MESSAGING_SENDER_ID}}';
+    window.FIREBASE_APP_ID = '{{FIREBASE_APP_ID}}';
+    window.FIREBASE_MEASUREMENT_ID = '{{FIREBASE_MEASUREMENT_ID}}';
+    window.RECAPTCHA_SITE_KEY = '{{RECAPTCHA_SITE_KEY}}';
+    window.APP_CHECK_ENABLED = '{{APP_CHECK_ENABLED}}';
+    window.APP_CHECK_DEBUG_TOKEN = '{{APP_CHECK_DEBUG_TOKEN}}';
+  </script>
+  <script src="/static/js/core/backend-url.js"></script>
+  <script type="module" src="/static/js/core/firebase-config.js"></script>
+  <script type="module" src="/static/js/auth/email-change-confirm.js"></script>
+</body>
+</html>

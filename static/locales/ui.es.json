@@ -108,6 +108,29 @@
         "feature4": "Almacenamiento total de archivos: 10 MB"
       },
       "pro": {
+    "emailChangeConfirm": {
+      "pageTitle": "Confirmar cambio de correo | EMA",
+      "badge": "Cambio de correo",
+      "heading": "Confirma tu cambio de correo",
+      "subtitle": "Confirma tu nueva dirección de correo y elige una contraseña para tu cuenta de EMA.",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "nombre@empresa.com",
+      "passwordLabel": "Nueva contraseña",
+      "passwordPlaceholder": "Al menos 6 caracteres",
+      "confirmPasswordLabel": "Confirmar nueva contraseña",
+      "confirmPasswordPlaceholder": "Vuelve a escribir tu nueva contraseña",
+      "submit": "Confirmar cambio de correo",
+      "backToSignIn": "Volver a EMA",
+      "errors": {
+        "missingCode": "Este enlace de confirmación no incluye el token requerido.",
+        "invalid": "Este enlace de confirmación es inválido o ha caducado.",
+        "passwordMismatch": "Las contraseñas no coinciden.",
+        "weakPassword": "Elige una contraseña más segura.",
+        "sameAsPreviousPassword": "No puedes reutilizar tu contraseña anterior.",
+        "generic": "No se pudo confirmar tu cambio de correo.",
+        "success": "Tu dirección de correo se actualizó correctamente."
+      }
+    },
         "name": "Pro",
         "price": "29 $",
         "description": "Ideal para equipos en crecimiento.",

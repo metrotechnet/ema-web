@@ -31,6 +31,10 @@
         "destination": "/index.html"
       },
       {
+        "source": "/email-change-confirm",
+        "destination": "/email-change-confirm.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
