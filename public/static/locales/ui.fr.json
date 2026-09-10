@@ -102,17 +102,18 @@
         "price": "0 $",
         "description": "Idéal pour tester la plateforme.",
         "feature1": "5 entretiens / sessions",
-        "feature2": "Partage d’expertises illimité",
+        "feature2": "Partage d’expertise illimité",
         "feature3": "Support communautaire",
-        "feature4": "Période d’essai de 30 jours"
+        "feature4": "Stockage total des fichiers : 10 MB"
       },
       "pro": {
         "name": "Pro",
         "price": "29 $",
         "description": "Idéal pour les équipes en croissance.",
         "feature1": "Entretiens / sessions illimités",
-        "feature2": "Partage d’expertises illimité",
-        "feature3": "Support prioritaire"
+        "feature2": "Partage d’expertise illimité",
+        "feature3": "Support prioritaire",
+        "feature4": "Stockage total des fichiers : 2 GB"
       },
       "enterprise": {
         "name": "Entreprise",

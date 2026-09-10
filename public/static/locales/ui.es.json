@@ -104,7 +104,7 @@
         "feature1": "5 entrevistas / sesiones",
         "feature2": "Compartición de conocimiento ilimitada",
         "feature3": "Soporte de la comunidad",
-        "feature4": "Período de prueba de 30 días"
+        "feature4": "Almacenamiento total de archivos: 10 MB"
       },
       "pro": {
         "name": "Pro",
@@ -112,7 +112,8 @@
         "description": "Ideal para equipos en crecimiento.",
         "feature1": "Entrevistas / sesiones ilimitadas",
         "feature2": "Compartición de conocimiento ilimitada",
-        "feature3": "Soporte prioritario"
+        "feature3": "Soporte prioritario",
+        "feature4": "Almacenamiento total de archivos: 2 GB"
       },
       "enterprise": {
         "name": "Enterprise",

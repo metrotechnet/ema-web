@@ -95,7 +95,7 @@
     },
     "plans": {
       "title": "Planes",
-      "lead": "Elige la opción que se ajuste a tu nivel de uso.",
+      "lead": "Compara los niveles de suscripción disponibles.",
       "perMonth": "/ mes",
       "trial": {
         "name": "Prueba",
@@ -104,7 +104,7 @@
         "feature1": "5 entrevistas / sesiones",
         "feature2": "Compartición de conocimiento ilimitada",
         "feature3": "Soporte de la comunidad",
-        "feature4": "Período de prueba de 30 días"
+        "feature4": "Almacenamiento total de archivos: 10 MB"
       },
       "pro": {
         "name": "Pro",
@@ -112,11 +112,12 @@
         "description": "Ideal para equipos en crecimiento.",
         "feature1": "Entrevistas / sesiones ilimitadas",
         "feature2": "Compartición de conocimiento ilimitada",
-        "feature3": "Soporte prioritario"
+        "feature3": "Soporte prioritario",
+        "feature4": "Almacenamiento total de archivos: 2 GB"
       },
       "enterprise": {
         "name": "Enterprise",
-        "price": "Próximamente",
+        "price": "Contáctanos",
         "description": "Para organizaciones grandes.",
         "feature1": "Roles y permisos personalizados",
         "feature2": "Colaboración en equipo",

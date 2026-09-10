@@ -95,7 +95,7 @@
     },
     "plans": {
       "title": "Plans",
-      "lead": "Choose the plan that matches your level of use.",
+      "lead": "Compare the available subscription tiers.",
       "perMonth": "/ month",
       "trial": {
         "name": "Trial",
@@ -104,7 +104,7 @@
         "feature1": "5 interviews / sessions",
         "feature2": "Unlimited expertise sharing",
         "feature3": "Community support",
-        "feature4": "30-day trial period"
+        "feature4": "Total file storage: 10 MB"
       },
       "pro": {
         "name": "Pro",
@@ -112,7 +112,8 @@
         "description": "Ideal for growing teams.",
         "feature1": "Unlimited interviews / sessions",
         "feature2": "Unlimited expertise sharing",
-        "feature3": "Priority support"
+        "feature3": "Priority support",
+        "feature4": "Total file storage: 2 GB"
       },
       "enterprise": {
         "name": "Enterprise",
