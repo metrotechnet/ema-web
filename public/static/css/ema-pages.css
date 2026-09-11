@@ -599,6 +599,8 @@ h1 {
     display: inline-block;
     padding: 0.2rem 0.55rem;
     color: #1f2a44;
+    border-radius: 14px;
+    border: 1px solid rgba(226, 232, 240, 0.96);
 }
 
 .plan-card-price {
