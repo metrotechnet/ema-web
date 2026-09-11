@@ -108,6 +108,29 @@
         "feature4": "Stockage total des fichiers : 10 MB"
       },
       "pro": {
+    "emailChangeConfirm": {
+      "pageTitle": "Confirmer le changement d'email | EMA",
+      "badge": "Changement d'email",
+      "heading": "Confirmez votre changement d'email",
+      "subtitle": "Confirmez votre nouvelle adresse email et choisissez un mot de passe pour votre compte EMA.",
+      "emailLabel": "Adresse email",
+      "emailPlaceholder": "nom@entreprise.com",
+      "passwordLabel": "Nouveau mot de passe",
+      "passwordPlaceholder": "Au moins 6 caractères",
+      "confirmPasswordLabel": "Confirmer le nouveau mot de passe",
+      "confirmPasswordPlaceholder": "Saisissez à nouveau votre nouveau mot de passe",
+      "submit": "Confirmer le changement d'email",
+      "backToSignIn": "Retour à EMA",
+      "errors": {
+        "missingCode": "Ce lien de confirmation ne contient pas le jeton requis.",
+        "invalid": "Ce lien de confirmation est invalide ou a expiré.",
+        "passwordMismatch": "Les mots de passe ne correspondent pas.",
+        "weakPassword": "Veuillez choisir un mot de passe plus fort.",
+        "sameAsPreviousPassword": "Vous ne pouvez pas réutiliser votre ancien mot de passe.",
+        "generic": "Nous n'avons pas pu confirmer votre changement d'email.",
+        "success": "Votre adresse email a été mise à jour avec succès."
+      }
+    },
         "name": "Pro",
         "price": "29 $",
         "description": "Idéal pour les équipes en croissance.",
