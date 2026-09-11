@@ -586,8 +586,9 @@ h1 {
 
 .plan-card-header {
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 14px;
 }
 
@@ -595,18 +596,11 @@ h1 {
     margin: 0;
     font-size: 1.14rem;
     letter-spacing: -0.02em;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 138px;
-    flex: 0 0 138px;
-    min-height: 42px;
-    padding: 6px 12px;
-    border-radius: 999px;
-    background: rgba(67, 56, 202, 0.12);
-    border: 1px solid rgba(67, 56, 202, 0.22);
-    color: #2f2aa8;
-    white-space: nowrap;
+    display: inline-block;
+    padding: 0.2rem 0.55rem;
+    color: #1f2a44;
+    border-radius: 14px;
+    border: 1px solid rgba(226, 232, 240, 0.96);
 }
 
 .plan-card-price {
