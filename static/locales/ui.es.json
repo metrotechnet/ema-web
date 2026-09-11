@@ -145,7 +145,8 @@
         "description": "Para organizaciones grandes.",
         "feature1": "Roles y permisos personalizados",
         "feature2": "Colaboración en equipo",
-        "feature3": "Integraciones de EMA con Slack, Teams y Google Workspace"
+        "feature3": "Integraciones de EMA con Slack, Teams y Google Workspace",
+        "contactLabel": "Contáctanos:"
       }
     },
     "phases": {
