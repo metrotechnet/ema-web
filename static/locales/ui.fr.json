@@ -66,7 +66,7 @@
       "step2Intro": "Approfondissez votre expertise à travers une conversation guidée et naturelle.",
       "step2Point1": "Répondez aux questions suggérées par EMA ou discutez librement de votre sujet.",
       "step2Point2": "EMA prend des notes, structure les informations recueillies et analyse les fichiers que vous ajoutez.",
-      "step2Point3": "Consultez le résumé de l'entrevue, corrigez-le au besoin et interrogez EMA pour tester sa compréhension.",
+      "step2Point3": "Consultez le résumé de l'entrevue et corrigez-le au besoin.",
       "step3Title": "Étape 3 – Validation",
       "step3Intro": "Assurez-vous que les connaissances recueillies reflètent fidèlement votre expertise.",
       "step3Point1": "Interrogez EMA pour vérifier sa compréhension de votre expertise.",
@@ -197,7 +197,7 @@
     },
     "footer": {
       "ariaLabel": "Contact IMX Technologie",
-      "contact": "Cette solution est conçue par <strong><a href=\"https://imxtech.ca\" target=\"_blank\" rel=\"noopener noreferrer\">IMX Technologie inc.</a></strong>. Pour en savoir plus, contactez-nous à <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
+      "contact": "Cette solution est conçue par <strong><a href=\"https://imxtech.ca\" target=\"_blank\" rel=\"noopener noreferrer\">IMX Technologie</a></strong>. Pour en savoir plus, contactez-nous à <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
     }
   }
 }
