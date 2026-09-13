@@ -242,7 +242,7 @@ html {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    width: min(46%, 510px);
+    width: 66%;
     max-width: 100%;
     padding: clamp(28px, 3vw, 52px) clamp(22px, 2.8vw, 46px);
     pointer-events: none;
@@ -258,17 +258,22 @@ html {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 86px;
-    height: 86px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     margin-bottom: 18px;
+    position: relative;
+    z-index: 0;
 }
 
 .hero-brand img {
-    width: 128px;
-    height: 128px;
+    width: 92px;
+    height: 92px;
     object-fit: contain;
     background: transparent;
+    display: block;
+    position: relative;
+    z-index: 0;
 }
 
 .hero .app-name {
@@ -332,74 +337,7 @@ html {
     white-space: nowrap;
 }
 
-@media (max-width: 1100px) {
-    .hero-features {
-        display: none;
-    }
-}
 
-@media (max-width: 840px) {
-    .page-shell {
-        width: 100%;
-        margin: 0 auto;
-        padding: 20px 12px 64px;
-    }
-
-    body {
-        background-image: linear-gradient(180deg, rgba(245, 243, 255, 0.72), rgba(238, 241, 255, 0.82));
-        background-size: cover;
-        background-position: center top;
-    }
-
-    .hero-overlay-content {
-        top: auto;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: fit-content;
-        min-height: 0;
-        margin: 0;
-        padding: 5px 16px;
-        justify-content: flex-end;
-    }
-
-    .hero-brand {
-        width: 64px;
-        height: 64px;
-        margin: 0;
-    }
-
-    .hero-brand img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-    }
-
-    .hero .app-name {
-        font-size: clamp(2.1rem, 8vw, 3rem);
-        line-height: 0.96;
-        max-width: 100%;
-    }
-
-    .hero .lead {
-        font-size: 0.96rem;
-        line-height: 1.45;
-        max-width: 100%;
-    }
-
-    .hero-actions {
-        width: 100%;
-        flex-direction: column;
-        align-items: stretch;
-        margin-top: 18px;
-    }
-
-    .cta-button,
-    .cta-button-secondary {
-        width: 100%;
-    }
-}
 
 .hero-features {
     display: flex;
@@ -1028,7 +966,75 @@ p:last-child {
  Responsive Layout Adjustments
 ----------------------------------------------------
 */
-@media (max-width: 840px) {
+@media (max-width: 400px) {
+
+    .feature-item {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .page-shell {
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 12px 64px;
+    }
+
+    body {
+        background-image: linear-gradient(180deg, rgba(245, 243, 255, 0.72), rgba(238, 241, 255, 0.82));
+        background-size: cover;
+        background-position: center top;
+    }
+
+    .hero-overlay-content {
+        top: auto;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: fit-content;
+        min-height: 0;
+        margin: 0;
+        padding: 5px 16px;
+        justify-content: flex-end;
+    }
+
+    .hero-brand {
+        width: 64px;
+        height: 64px;
+        margin: 0;
+    }
+
+    .hero-brand img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .hero .app-name {
+        font-size: clamp(2.1rem, 8vw, 3rem);
+        line-height: 0.96;
+        max-width: 100%;
+    }
+
+    .hero .lead {
+        font-size: 0.96rem;
+        line-height: 1.45;
+        max-width: 100%;
+    }
+
+    .hero-actions {
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        margin-top: 18px;
+    }
+
+    .cta-button,
+    .cta-button-secondary {
+        width: 100%;
+    }
+
     .slim-navbar {
         display: grid;
         grid-template-columns: 1fr auto;
