@@ -63,6 +63,7 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
                     "{{APP_CHECK_ENABLED}}": os.getenv("APP_CHECK_ENABLED", "false"),
                     "{{APP_CHECK_DEBUG_TOKEN}}": os.getenv("APP_CHECK_DEBUG_TOKEN", ""),
                     "{{BACKEND_URL}}": os.getenv("BACKEND_URL", ""),
+                    "{{MAX_SESSION_PRO}}": os.getenv("MAX_SESSION_PRO", "100"),
                 }
 
                 for placeholder, value in replacements.items():
