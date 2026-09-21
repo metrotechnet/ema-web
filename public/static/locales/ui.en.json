@@ -1,6 +1,6 @@
 {
   "landing": {
-    "title": "EMA | Solution Overview",
+    "title": "EMA | Expert Memory Agent",
     "nav": {
       "ariaLabel": "Main navigation",
       "language": "Language",
@@ -43,12 +43,12 @@
       "p2": "This knowledge is often scattered across conversations, team habits, or individual memory. When someone changes role or leaves the organization, part of this capital becomes hard to recover."
     },
     "solution": {
-      "title": "Provided solution: EMA",
+      "title": "The solution: EMA",
       "p1": "EMA behaves like an intelligent interviewer: it moves forward one question at a time, structures the conversation around a clear plan, explores each validated axis, and delivers interim syntheses before producing a final expertise profile.",
       "p2": "Its goal is to turn tacit expertise into explicit knowledge, without forcing the user to write complete documentation."
     },
     "usage": {
-      "title": "How it works"
+      "title": "A 4-step journey"
     },
     "how": {
       "subtitle": "A 4-step journey.",
@@ -108,6 +108,24 @@
         "feature4": "Total file storage: 10 MB"
       },
       "pro": {
+        "name": "Pro",
+        "price": "$29",
+        "description": "Ideal for growing teams.",
+        "feature1": "Unlimited interviews / sessions",
+        "feature2": "Unlimited expertise sharing",
+        "feature3": "Priority support",
+        "feature4": "Total file storage: 2 GB"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Contact us",
+        "description": "For larger organizations.",
+        "feature1": "Custom roles and permissions",
+        "feature2": "Team collaboration",
+        "feature3": "EMA integrations with Slack, Teams, and Google Workspace",
+        "contactLabel": "Contact us:"
+      }
+    },
     "emailChangeConfirm": {
       "pageTitle": "Confirm email change | EMA",
       "badge": "Email change",
@@ -129,24 +147,6 @@
         "sameAsPreviousPassword": "You cannot reuse your previous password.",
         "generic": "Unable to confirm your email change.",
         "success": "Your email address has been updated successfully."
-      }
-    },
-        "name": "Pro",
-        "price": "$29",
-        "description": "Ideal for growing teams.",
-        "feature1": "Unlimited interviews / sessions",
-        "feature2": "Unlimited expertise sharing",
-        "feature3": "Priority support",
-        "feature4": "Total file storage: 2 GB"
-      },
-      "enterprise": {
-        "name": "Enterprise",
-        "price": "Contact us",
-        "description": "For larger organizations.",
-        "feature1": "Custom roles and permissions",
-        "feature2": "Team collaboration",
-        "feature3": "EMA integrations with Slack, Teams, and Google Workspace",
-        "contactLabel": "Contact us:"
       }
     },
     "phases": {

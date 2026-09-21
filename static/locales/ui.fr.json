@@ -103,11 +103,29 @@
         "price": "0 $",
         "description": "Idéal pour tester la plateforme.",
         "feature1": "5 entretiens / sessions",
-        "feature2": "Partage d’expertise illimité",
+        "feature2": "Partage d’expertises illimité",
         "feature3": "Support communautaire",
-        "feature4": "Stockage total des fichiers : 10 MB"
+        "feature4": "Stockage total des fichiers : 10 Mo"
       },
       "pro": {
+        "name": "Pro",
+        "price": "29 $",
+        "description": "Idéal pour les équipes en croissance.",
+        "feature1": "Entretiens / sessions illimités",
+        "feature2": "Partage d’expertises illimité",
+        "feature3": "Support prioritaire",
+        "feature4": "Stockage total des fichiers : 2 Go"
+      },
+      "enterprise": {
+        "name": "Entreprise",
+        "price": "Contactez-nous",
+        "description": "Pour les grandes organisations.",
+        "feature1": "Rôles et permissions personnalisés",
+        "feature2": "Collaboration en équipe",
+        "feature3": "Intégrations d'EMA avec Slack, Teams et Google Workspace",
+        "contactLabel": "Contactez-nous :"
+      }
+    },
     "emailChangeConfirm": {
       "pageTitle": "Confirmer le changement d'email | EMA",
       "badge": "Changement d'email",
@@ -129,24 +147,6 @@
         "sameAsPreviousPassword": "Vous ne pouvez pas réutiliser votre ancien mot de passe.",
         "generic": "Nous n'avons pas pu confirmer votre changement d'email.",
         "success": "Votre adresse email a été mise à jour avec succès."
-      }
-    },
-        "name": "Pro",
-        "price": "29 $",
-        "description": "Idéal pour les équipes en croissance.",
-        "feature1": "Entretiens / sessions illimités",
-        "feature2": "Partage d’expertise illimité",
-        "feature3": "Support prioritaire",
-        "feature4": "Stockage total des fichiers : 2 GB"
-      },
-      "enterprise": {
-        "name": "Entreprise",
-        "price": "Contactez-nous",
-        "description": "Pour les grandes organisations.",
-        "feature1": "Rôles et permissions personnalisés",
-        "feature2": "Collaboration en équipe",
-        "feature3": "Intégrations d'EMA avec Slack, Teams et Google Workspace",
-        "contactLabel": "Contactez-nous :"
       }
     },
     "phases": {

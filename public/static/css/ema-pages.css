@@ -344,7 +344,7 @@ html {
     align-items: flex-start;
     justify-content: flex-start;
     gap: 14px;
-    width: min(100%, 610px);
+    width: min(100%, 435px);
     margin-top: 22px;
     flex-wrap: nowrap;
     overflow: hidden;

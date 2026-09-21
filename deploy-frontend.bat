@@ -27,6 +27,12 @@ if %errorlevel% neq 0 (
   exit /b 1
 )
 
+powershell -NoProfile -Command "$p='public\index.html'; $c=Get-Content -Raw -Encoding UTF8 $p; $c=$c -replace '{{MAX_SESSION_PRO}}', '100'; Set-Content -Encoding UTF8 $p $c"
+if %errorlevel% neq 0 (
+  echo ERROR: Failed to inject MAX_SESSION_PRO into public\index.html
+  exit /b 1
+)
+
 xcopy "static" "public\static\" /E /I /Y >nul
 if %errorlevel% geq 4 (
   echo ERROR: Failed to copy static assets to public\static

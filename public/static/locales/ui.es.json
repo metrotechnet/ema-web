@@ -103,11 +103,29 @@
         "price": "0 $",
         "description": "Ideal para probar la plataforma.",
         "feature1": "5 entrevistas / sesiones",
-        "feature2": "Compartición de conocimiento ilimitada",
+        "feature2": "Conocimiento compartido ilimitado",
         "feature3": "Soporte de la comunidad",
         "feature4": "Almacenamiento total de archivos: 10 MB"
       },
       "pro": {
+        "name": "Pro",
+        "price": "29 $",
+        "description": "Ideal para equipos en crecimiento.",
+        "feature1": "Entrevistas / sesiones ilimitadas",
+        "feature2": "Conocimiento compartido ilimitado",
+        "feature3": "Soporte prioritario",
+        "feature4": "Almacenamiento total de archivos: 2 GB"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Contáctanos",
+        "description": "Para organizaciones grandes.",
+        "feature1": "Roles y permisos personalizados",
+        "feature2": "Colaboración en equipo",
+        "feature3": "Integraciones de EMA con Slack, Teams y Google Workspace",
+        "contactLabel": "Contáctanos:"
+      }
+    },
     "emailChangeConfirm": {
       "pageTitle": "Confirmar cambio de correo | EMA",
       "badge": "Cambio de correo",
@@ -129,24 +147,6 @@
         "sameAsPreviousPassword": "No puedes reutilizar tu contraseña anterior.",
         "generic": "No se pudo confirmar tu cambio de correo.",
         "success": "Tu dirección de correo se actualizó correctamente."
-      }
-    },
-        "name": "Pro",
-        "price": "29 $",
-        "description": "Ideal para equipos en crecimiento.",
-        "feature1": "Entrevistas / sesiones ilimitadas",
-        "feature2": "Compartición de conocimiento ilimitada",
-        "feature3": "Soporte prioritario",
-        "feature4": "Almacenamiento total de archivos: 2 GB"
-      },
-      "enterprise": {
-        "name": "Enterprise",
-        "price": "Contáctanos",
-        "description": "Para organizaciones grandes.",
-        "feature1": "Roles y permisos personalizados",
-        "feature2": "Colaboración en equipo",
-        "feature3": "Integraciones de EMA con Slack, Teams y Google Workspace",
-        "contactLabel": "Contáctanos:"
       }
     },
     "phases": {
