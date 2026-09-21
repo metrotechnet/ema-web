@@ -34,6 +34,14 @@
     <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="/static/css/00-theme-colors.css">
     <link rel="stylesheet" href="/static/css/ema-pages.css">
+    <style>
+        html.i18n-pending body {
+            visibility: hidden;
+        }
+    </style>
+    <script>
+        document.documentElement.classList.add('i18n-pending');
+    </script>
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -111,11 +119,11 @@
                         <p class="lead" data-i18n="hero.lead">EMA vous guide dans une entrevue intelligente pour capturer, structurer et partager ce qui compte vraiment.</p>
 
                         <div class="hero-actions">
-                            <a class="cta-button" href="https://imx-ema-main.web.app/login.html" target="_blank" rel="noopener noreferrer" data-i18n-aria-label="hero.primaryActionAria">
+                            <a id="hero-start-link" class="cta-button" href="https://imx-ema-main.web.app/login.html?lang=fr" data-i18n-aria-label="hero.primaryActionAria">
                                 <i class="bi bi-stars"></i>
                                 <span data-i18n="hero.primaryButton">Découvrir EMA</span>
                             </a>
-                            <a class="cta-button cta-button-secondary" href="#usage-section" data-i18n-aria-label="hero.secondaryActionAria">
+                            <a id="usage-start-link" class="cta-button cta-button-secondary" href="#usage-section" data-i18n-aria-label="hero.secondaryActionAria">
                                 <i class="bi bi-list-ol"></i>
                                 <span data-i18n="hero.secondaryButton">Voir les étapes</span>
                             </a>

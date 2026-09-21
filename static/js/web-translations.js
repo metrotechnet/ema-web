@@ -4,6 +4,18 @@
 
 const START_URL = "https://imx-ema-main.web.app/";
 
+function buildStartUrl(lang) {
+    const url = new URL(START_URL);
+    url.searchParams.set("lang", lang);
+    return url.toString();
+}
+
+function buildLoginUrl(lang) {
+    const url = new URL("https://imx-ema-main.web.app/login.html");
+    url.searchParams.set("lang", lang);
+    return url.toString();
+}
+
 // Landing page text is loaded from the locale JSON files in static/locales.
 
 /**
@@ -100,12 +112,12 @@ function applyI18n(lang, dict = {}) {
 
     const heroStartLink = document.getElementById("hero-start-link");
     if (heroStartLink) {
-        heroStartLink.setAttribute("href", START_URL);
+        heroStartLink.setAttribute("href", buildLoginUrl(lang));
     }
 
     const usageStartLink = document.getElementById("usage-start-link");
     if (usageStartLink) {
-        usageStartLink.setAttribute("href", START_URL);
+        usageStartLink.setAttribute("href", buildStartUrl(lang));
     }
 
     const brandLink = document.getElementById("brand-link");
@@ -186,7 +198,7 @@ function bindLandingStartAction(linkElement) {
         const lang = resolveLang();
         const confirmed = await confirmLandingStart(lang);
         if (!confirmed) return;
-        window.open(START_URL, "_blank", "noopener,noreferrer");
+        window.open(buildStartUrl(lang), "_blank", "noopener,noreferrer");
     });
 }
 
@@ -249,8 +261,9 @@ normalizeLandingPath();
     const lang = resolveLang();
     const dict = await loadLocaleForLanguage(lang);
     applyI18n(lang, dict);
+    await new Promise((resolve) => requestAnimationFrame(resolve));
+    document.documentElement.classList.remove("i18n-pending");
 })();
 bindMobileMenuToggle();
 
-bindLandingStartAction(document.getElementById("hero-start-link"));
 bindLandingStartAction(document.getElementById("usage-start-link"));
