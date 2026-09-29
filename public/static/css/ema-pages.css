@@ -469,12 +469,107 @@ h1 {
 .section:nth-child(4) .section-icon { background: linear-gradient(135deg, rgba(245, 158, 11, 0.96), rgba(34, 176, 125, 0.96)); }
 .section:nth-child(5) .section-icon { background: linear-gradient(135deg, rgba(15, 118, 110, 0.96), rgba(95, 96, 243, 0.96)); }
 
-.plans-section .section-icon {
-    background: linear-gradient(135deg, var(--theme-brand-end), var(--theme-primary));
-}
+
 
 .plans-lead {
     max-width: 70ch;
+}
+
+.pilot-callout {
+    margin-top: 18px;
+    padding: 26px;
+    border-radius: 20px;
+    border: 1px solid rgba(20, 104, 96, 0.28);
+    border-left: 8px solid #0f766e;
+    background: linear-gradient(145deg, rgba(13, 148, 136, 0.13), rgba(255, 255, 255, 0.98));
+    box-shadow: 0 20px 44px rgba(15, 23, 42, 0.14);
+}
+
+.pilot-callout p {
+    margin: 0;
+    color: var(--ink);
+    line-height: 1.65;
+    font-size: 1.03rem;
+}
+
+.pilot-callout p + p {
+    margin-top: 10px;
+}
+
+.pilot-section-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    color: #ffffff;
+    background: linear-gradient(135deg, #0f766e, #2563eb);
+    box-shadow: 0 8px 18px rgba(37, 99, 235, 0.28);
+}
+
+.pilot-section-icon i {
+    font-size: 1.1rem;
+    line-height: 1;
+}
+
+.pilot-callout-offer {
+    font-weight: 800;
+    color: #0b6a63;
+    font-size: 1.12rem;
+}
+
+.pilot-callout-contact a {
+    color: var(--theme-primary-active);
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.pilot-callout-contact a:hover,
+.pilot-callout-contact a:focus-visible {
+    text-decoration: underline;
+}
+
+.pilot-callout-badge {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    margin-bottom: 10px;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-weight: 800;
+    font-size: 0.82rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: linear-gradient(120deg, #0f766e, #2563eb);
+}
+
+.pilot-callout-cta {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+    padding: 10px 16px;
+    border-radius: 12px;
+    font-weight: 800;
+    font-size: 0.95rem;
+    color: #ffffff;
+    text-decoration: none;
+    background: linear-gradient(120deg, #0f766e, #0b5f58);
+    box-shadow: 0 8px 18px rgba(15, 118, 110, 0.32);
+    transition: transform 140ms ease, box-shadow 140ms ease;
+}
+
+.pilot-callout-cta:hover,
+.pilot-callout-cta:focus-visible {
+    transform: translateY(-1px);
+    box-shadow: 0 12px 22px rgba(15, 118, 110, 0.4);
+}
+
+.plans-section-hidden {
+    display: none;
 }
 
 .plans-grid {

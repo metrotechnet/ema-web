@@ -10,7 +10,7 @@
       "usage": "Journey",
       "faq": "FAQ",
       "impact": "Impact",
-      "plans": "Plans",
+      "plans": "Pilot Program",
       "contact": "Contact",
       "login": "Login",
       "signup": "Sign up"
@@ -95,36 +95,11 @@
       "p2": "Teams can better compare practices, identify gray zones, and preserve learnings from real-world experience."
     },
     "plans": {
-      "title": "Plans",
-      "lead": "Compare the available subscription tiers.",
-      "perMonth": "/ month",
-      "trial": {
-        "name": "Trial",
-        "price": "$0",
-        "description": "Ideal for testing the platform.",
-        "feature1": "5 interviews / sessions",
-        "feature2": "Unlimited expertise sharing",
-        "feature3": "Community support",
-        "feature4": "Total file storage: 10 MB"
-      },
-      "pro": {
-        "name": "Pro",
-        "price": "$29",
-        "description": "Ideal for growing teams.",
-        "feature1": "Unlimited interviews / sessions",
-        "feature2": "Unlimited expertise sharing",
-        "feature3": "Priority support",
-        "feature4": "Total file storage: 2 GB"
-      },
-      "enterprise": {
-        "name": "Enterprise",
-        "price": "Contact us",
-        "description": "For larger organizations.",
-        "feature1": "Custom roles and permissions",
-        "feature2": "Team collaboration",
-        "feature3": "EMA integrations with Slack, Teams, and Google Workspace",
-        "contactLabel": "Contact us:"
-      }
+      "title": "Pilot Program",
+      "lead": "We are looking for companies to test EMA.",
+      "pilotCall": "We are currently looking for partner companies to join our pilot program.",
+      "pilotOffer": "Special offer: 3 months free for selected organizations.",
+      "pilotContact": "Interested? Contact us at <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
     },
     "emailChangeConfirm": {
       "pageTitle": "Confirm email change | EMA",

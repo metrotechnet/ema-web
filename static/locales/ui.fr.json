@@ -10,7 +10,7 @@
       "usage": "Parcours",
       "faq": "FAQ",
       "impact": "Retombées",
-      "plans": "Forfaits",
+      "plans": "Projet pilote",
       "contact": "Contact",
       "login": "Connexion",
       "signup": "Inscription"
@@ -95,36 +95,11 @@
       "p2": "Les équipes peuvent mieux comparer les pratiques, repérer les zones grises et préserver les apprentissages tirés de l'expérience réelle."
     },
     "plans": {
-      "title": "Forfaits",
-      "lead": "Comparez les formules disponibles.",
-      "perMonth": "/ mois",
-      "trial": {
-        "name": "Essai",
-        "price": "0 $",
-        "description": "Idéal pour tester la plateforme.",
-        "feature1": "5 entretiens / sessions",
-        "feature2": "Partage d’expertises illimité",
-        "feature3": "Support communautaire",
-        "feature4": "Stockage total des fichiers : 10 Mo"
-      },
-      "pro": {
-        "name": "Pro",
-        "price": "29 $",
-        "description": "Idéal pour les équipes en croissance.",
-        "feature1": "Entretiens / sessions illimités",
-        "feature2": "Partage d’expertises illimité",
-        "feature3": "Support prioritaire",
-        "feature4": "Stockage total des fichiers : 2 Go"
-      },
-      "enterprise": {
-        "name": "Entreprise",
-        "price": "Contactez-nous",
-        "description": "Pour les grandes organisations.",
-        "feature1": "Rôles et permissions personnalisés",
-        "feature2": "Collaboration en équipe",
-        "feature3": "Intégrations d'EMA avec Slack, Teams et Google Workspace",
-        "contactLabel": "Contactez-nous :"
-      }
+      "title": "Projet pilote",
+      "lead": "Nous recherchons des compagnies pour tester EMA.",
+      "pilotCall": "Nous sommes actuellement à la recherche de compagnies partenaires pour participer à notre projet pilote.",
+      "pilotOffer": "Offre spéciale : 3 mois gratuits pour les organisations sélectionnées.",
+      "pilotContact": "Intéressé? Contactez-nous à <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
     },
     "emailChangeConfirm": {
       "pageTitle": "Confirmer le changement d'email | EMA",
