@@ -89,17 +89,25 @@
       "q4": "Les documents et les informations sont-ils sécurisés ?",
       "a4": "Oui. Les informations et les fichiers sont conservés sur une plateforme sécurisée. Vous contrôlez les personnes avec qui vous partagez vos connaissances et pouvez retirer un accès en tout temps. Vous gardez ainsi le contrôle sur vos expertises, vos documents et les personnes qui peuvent y accéder."
     },
+    "video": {
+      "title": "Vidéo de présentation",
+      "lead": "Découvrez EMA en action dans cette présentation.",
+      "ariaLabel": "Lecteur vidéo YouTube de présentation EMA"
+    },
     "impact": {
       "title": "Retombées",
       "p1": "EMA facilite la capitalisation des connaissances, réduit la dépendance à la mémoire individuelle et accélère la production de contenus réutilisables pour l'onboarding, la formation, l'amélioration continue et le transfert d'expertise.",
       "p2": "Les équipes peuvent mieux comparer les pratiques, repérer les zones grises et préserver les apprentissages tirés de l'expérience réelle."
     },
     "plans": {
+      "pilotTitle": "Projet pilote",
       "title": "Projet pilote",
       "lead": "Nous recherchons des compagnies pour tester EMA.",
+      "pilotBadge": "Places limitées",
       "pilotCall": "Nous sommes actuellement à la recherche de compagnies partenaires pour participer à notre projet pilote.",
       "pilotOffer": "Offre spéciale : 3 mois gratuits pour les organisations sélectionnées.",
-      "pilotContact": "Intéressé? Contactez-nous à <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
+      "pilotContact": "Intéressé ? Contactez-nous à <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>.",
+      "pilotCta": "Postuler au projet pilote"
     },
     "emailChangeConfirm": {
       "pageTitle": "Confirmer le changement d'email | EMA",

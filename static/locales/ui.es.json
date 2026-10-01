@@ -89,17 +89,25 @@
       "q4": "¿Los documentos y la información están seguros?",
       "a4": "Sí. La información y los archivos se conservan en una plataforma segura. Tú controlas con quién compartes tus conocimientos y puedes retirar el acceso en cualquier momento. Así mantienes el control sobre tus conocimientos, tus documentos y quién puede acceder a ellos."
     },
+    "video": {
+      "title": "Video de presentación",
+      "lead": "Descubre EMA en acción en esta presentación.",
+      "ariaLabel": "Reproductor de video de YouTube de presentación de EMA"
+    },
     "impact": {
       "title": "Impacto",
       "p1": "EMA facilita la capitalización del conocimiento, reduce la dependencia de la memoria individual y acelera la producción de contenidos reutilizables para onboarding, formación, mejora continua y transferencia de experiencia.",
       "p2": "Los equipos pueden comparar mejor las prácticas, detectar zonas grises y preservar aprendizajes surgidos de la experiencia real."
     },
     "plans": {
+      "pilotTitle": "Proyecto piloto",
       "title": "Proyecto piloto",
       "lead": "Estamos buscando empresas para probar EMA.",
+      "pilotBadge": "Cupos limitados",
       "pilotCall": "Actualmente buscamos empresas colaboradoras para participar en nuestro proyecto piloto.",
       "pilotOffer": "Oferta especial: 3 meses gratis para las organizaciones seleccionadas.",
-      "pilotContact": "¿Te interesa? Contáctanos en <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
+      "pilotContact": "¿Te interesa? Contáctanos en <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>.",
+      "pilotCta": "Postular al proyecto piloto"
     },
     "emailChangeConfirm": {
       "pageTitle": "Confirmar cambio de correo | EMA",

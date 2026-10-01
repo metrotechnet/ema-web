@@ -89,17 +89,25 @@
       "q4": "Are the documents and information secure?",
       "a4": "Yes. Information and files are stored on a secure platform. You control who you share your knowledge with and can revoke access at any time. That way, you keep control of your expertise, your documents, and who can access them."
     },
+    "video": {
+      "title": "Presentation video",
+      "lead": "Discover EMA in action in this presentation.",
+      "ariaLabel": "EMA presentation YouTube video player"
+    },
     "impact": {
       "title": "Outcomes",
       "p1": "EMA helps capture knowledge, reduces dependency on individual memory, and speeds up production of reusable content for onboarding, training, continuous improvement, and expertise transfer.",
       "p2": "Teams can better compare practices, identify gray zones, and preserve learnings from real-world experience."
     },
     "plans": {
+      "pilotTitle": "Pilot Program",
       "title": "Pilot Program",
       "lead": "We are looking for companies to test EMA.",
+      "pilotBadge": "Limited spots",
       "pilotCall": "We are currently looking for partner companies to join our pilot program.",
       "pilotOffer": "Special offer: 3 months free for selected organizations.",
-      "pilotContact": "Interested? Contact us at <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>."
+      "pilotContact": "Interested? Contact us at <a href=\"mailto:info@imxtech.ca\">info@imxtech.ca</a>.",
+      "pilotCta": "Apply to the pilot program"
     },
     "emailChangeConfirm": {
       "pageTitle": "Confirm email change | EMA",
