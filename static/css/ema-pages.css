@@ -568,9 +568,7 @@ h1 {
     box-shadow: 0 12px 22px rgba(15, 118, 110, 0.4);
 }
 
-.plans-section-hidden {
-    display: none;
-}
+
 
 .plans-grid {
     display: grid;
