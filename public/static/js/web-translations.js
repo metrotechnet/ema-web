@@ -124,6 +124,12 @@ function applyI18n(lang, dict = {}) {
     if (brandLink) {
         brandLink.setAttribute("href", `/?lang=${lang}`);
     }
+
+    const videoEmbedFrame = document.querySelector(".video-embed iframe");
+    if (videoEmbedFrame instanceof HTMLIFrameElement) {
+        const videoId = lang === "fr" ? "GQ1OaBxLc4A" : "lIYxp0PdyME";
+        videoEmbedFrame.src = `https://www.youtube-nocookie.com/embed/${videoId}?rel=0&modestbranding=1&iv_load_policy=3&playsinline=1`;
+    }
 }
 
 /**
