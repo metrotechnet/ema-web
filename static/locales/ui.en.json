@@ -100,6 +100,35 @@
       "p2": "Teams can better compare practices, identify gray zones, and preserve learnings from real-world experience."
     },
     "plans": {
+      "legacyTitle": "Plans",
+      "legacyLead": "Compare available plans.",
+      "perMonth": "/ month",
+      "trial": {
+        "name": "Trial",
+        "price": "$0",
+        "description": "Ideal for testing the platform.",
+        "feature1": "5 interviews / sessions",
+        "feature2": "Unlimited expertise sharing",
+        "feature3": "Community support",
+        "feature4": "Total file storage: 500 MB"
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "$29",
+        "description": "Ideal for growing teams.",
+        "feature1": "Up to 100 sessions",
+        "feature2": "Unlimited expertise sharing",
+        "feature3": "Priority support",
+        "feature4": "Total file storage: 2 GB"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Contact us",
+        "description": "For large organizations.",
+        "feature1": "Custom roles and permissions",
+        "feature2": "Team collaboration",
+        "feature3": "EMA integrations with Slack, Teams, Google Workspace"
+      },
       "pilotTitle": "Pilot Program",
       "title": "Pilot Program",
       "lead": "We are looking for companies to test EMA.",

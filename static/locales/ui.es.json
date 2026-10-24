@@ -100,6 +100,35 @@
       "p2": "Los equipos pueden comparar mejor las prácticas, detectar zonas grises y preservar aprendizajes surgidos de la experiencia real."
     },
     "plans": {
+      "legacyTitle": "Planes",
+      "legacyLead": "Compara los planes disponibles.",
+      "perMonth": "/ mes",
+      "trial": {
+        "name": "Prueba",
+        "price": "0 $",
+        "description": "Ideal para probar la plataforma.",
+        "feature1": "5 entrevistas / sesiones",
+        "feature2": "Compartición de experiencia ilimitada",
+        "feature3": "Soporte comunitario",
+        "feature4": "Almacenamiento total de archivos: 500 MB"
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "29 $",
+        "description": "Ideal para equipos en crecimiento.",
+        "feature1": "Hasta 100 sesiones",
+        "feature2": "Compartición de experiencia ilimitada",
+        "feature3": "Soporte prioritario",
+        "feature4": "Almacenamiento total de archivos: 2 GB"
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "price": "Contáctanos",
+        "description": "Para grandes organizaciones.",
+        "feature1": "Roles y permisos personalizados",
+        "feature2": "Colaboración en equipo",
+        "feature3": "Integraciones de EMA con Slack, Teams y Google Workspace"
+      },
       "pilotTitle": "Proyecto piloto",
       "title": "Proyecto piloto",
       "lead": "Estamos buscando empresas para probar EMA.",
