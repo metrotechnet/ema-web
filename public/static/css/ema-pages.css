@@ -313,7 +313,7 @@ html {
     align-items: center;
     justify-content: center;
     gap: 8px;
-    min-width: 170px;
+    width: 350px;
     min-height: 46px;
     padding: 12px 16px;
     border-radius: 16px;
