@@ -496,6 +496,30 @@ h1 {
     margin-top: 10px;
 }
 
+.pilot-callout-title {
+    margin: 0 0 10px;
+    color: var(--ink);
+    font-size: clamp(1.5rem, 2vw, 2.1rem);
+    line-height: 1.2;
+}
+
+.pilot-callout-subtitle {
+    margin-top: 14px;
+    font-weight: 800;
+    color: #0f172a;
+}
+
+.pilot-callout-list {
+    margin: 10px 0 0;
+    padding-left: 1.2rem;
+    color: var(--ink);
+    line-height: 1.7;
+}
+
+.pilot-callout-list li + li {
+    margin-top: 4px;
+}
+
 .pilot-section-icon {
     display: inline-flex;
     align-items: center;
